@@ -1,59 +1,87 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Emma's Beauty Parlour
 
-Welcome USER_NAME,
+Emma's Beauty Parlour is a sole trader beautician business based in Tempo, County Fermanagh, Northern Ireland.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+Following a pregnancy and the covid pandemic, the client has moved from rented retail premises to premises adjoining her dwelling house.
 
-## Gitpod Reminders
+Until now the client had been using social media channels and word of mouth to drive business leads, but during the pandemic she seen how useful a website would've also been to the business and now wants to get one set up.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+The basic functions that the client wants the website to feature are:
+* a list of the services provided (including pricing structure and any relevant Health & Safety Information)
+* the new business location details
+* a contact/enquiry form
 
-`python3 -m http.server`
+The website is aimed at a female audience, who make up 95% of the clients custom.
 
-A blue button should appear to click: _Make Public_,
+## Site Design Considerations
+<hr>
 
-Another blue button should appear to click: _Open Browser_.
+<!--Discuss Client expectations-->
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+<!-- Discuss User expectations-->
 
-A blue button should appear to click: _Make Public_,
+<!-- Discuss Feature requirements —->
 
-Another blue button should appear to click: _Open Browser_.
+<!-- Discuss colour pallette choices-->
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+<!-- Mobile first discussion-->
 
-To log into the Heroku toolbelt CLI:
+<!--Enter wireframe examples-->
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+## Features
+<hr>
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidently make it public then you can create a new one with _Regenerate API Key_.
+### Initial Deployment Features
 
-## Updates Since The Instructional Video
+* Navigation Bar
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+  * Each page contains a fully responsive identical navigation bar at the top of the screen.
+  * Identical styling helps to promote an overall inclusive feel to the site, and pulls pages together across a common theme.
+  * The bar contains links to all other pages of the site, enabling the user to quickly navigate through the site without having to utilise their browser navigation buttons.  
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+* Landing Page Image
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+* Services Pages
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+* Location Map
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+* Contact Form
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+* Footer
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+### Future Features
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+* Online Booking
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+* Ecommerce Site
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+## Technologies Used section?
 
----
+* HTML
+* CSS
 
-Happy coding!
+## Testing
+<hr>
+
+### Validator Testing
+
+* HTML
+* CSS
+
+### Unfixed Bugs
+
+## Deployment
+<hr>
+
+The site was deployed to GitHub pages. 
+
+The steps to deploy are as follows:
+* In the GitHub repository, navigate to the Settings tab
+* From the source section drop-down menu, select the Master Branch
+* Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+
+The live link can be found here - https://code-institute-org.github.io/love-running-2.0/index.html
+
+## Credits
+<hr>
+
