@@ -50,7 +50,7 @@ The website is aimed at a female audience, who make up 95% of the clients custom
 
 ### Homepage
 
-![Desktop Version](../assets/wireframes/homepage-desktop.png)
+![Desktop Version](./assets/wireframes/homepage-desktop.png)
 
 ![Mobile Version](../assets/wireframes/homepage-mobile.png)
 
