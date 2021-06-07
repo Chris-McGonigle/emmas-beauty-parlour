@@ -46,7 +46,15 @@ The website is aimed at a female audience, who make up 95% of the clients custom
 
 <!-- Mobile first discussion-->
 
-<!--Enter wireframe examples-->
+## Wireframes
+
+### Homepage
+
+![Desktop Version](homepage-desktop.png)
+
+![Mobile Version](homepage-mobile.png)
+
+
 
 ## Features
 <hr>
