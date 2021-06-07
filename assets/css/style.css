@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat&display=swap');
+
+/* Main page styles */
+
+
+/* Style Nav Bar */
+
+header h1 {
+    font-family: Lobster, san serif;
+    display: inline;
+    float: left;
+}
+
+.dropdown-logo {
+    text-decoration: none;
+    display: inline-block;
+    position: absolute;
+    float: right;
+    margin-top: 20px;
+}
+
+/* Style dropdown menu */
+
+.home-dropdown {
+    font-family: Montserrat, san serif;
+    position: relative;
+    display: inline-block
+}
+
+/* Style dropdown content hidden by default */
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: aliceblue;
+    z-index: 1;
+    text-align: left;
+}
+
+/* Style dropdown links */
+
+.dropdown-content li {
+    color: #000;
+    padding 12px 16px;
+    margin: auto;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change dropdown link color on hover */
+
+.dropdown-content li:hover {
+    background-color: red;
+}
+
+/* Show dropdown on hover */
+
+.home-dropdown:hover .dropdown-content {
+    display: block;
+    float: left;
+}
