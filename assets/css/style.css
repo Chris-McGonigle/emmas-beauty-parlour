@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&family=Montserrat&display=swap');
 
 /* Main page styles */
 
@@ -8,24 +8,30 @@ body {
 }
 
 header {
+    background-color: #f6f7f1;
     color: #34a0a4;
-    margin: 10px 0 0 10px;
+    margin-left: 10px;
+    height: 10vh;
+    line-height: 75px;
+}
+
+h1, h2, h3 {
+    font-family: "Homemade Apple", san serif;
+    color: #34a0a4;
 }
 
 /* Style Nav Bar */
 
-header h1 {
-    font-family: Lobster, san serif;
-    font-size: 1.7em;
+ header h1 {
+
+    font-size: 1.1em;
     display: inline;
     float: left;
 }
 
 .dropdown-logo {
     list-style-type: none;
-    position: fixed;
     float: right;
-    margin-top: 10px;
     color: #db9487;
 }
 
@@ -48,7 +54,8 @@ header h1 {
     z-index: 1;
     right: 0;
     text-align: left;
-    
+    line-height: 20px;
+    border-radius: 25px;
 }
 
 /* Style dropdown links */
@@ -57,8 +64,12 @@ header h1 {
     color: #000;
     padding: 12px 16px;
     margin: auto;
-    text-decoration: none;
     display: block;
+}
+
+.dropdown-content a {
+    text-decoration: none;
+    color: #34a0a4;
 }
 
 /* Change dropdown link color on hover */
