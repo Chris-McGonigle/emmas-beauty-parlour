@@ -15,14 +15,17 @@ header {
     line-height: 75px;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     font-family: "Homemade Apple", san serif;
     color: #34a0a4;
+    
 }
 
 /* Style Nav Bar */
 
- header h1 {
+header h1 {
 
     font-size: 1.1em;
     display: inline;
@@ -75,7 +78,8 @@ h1, h2, h3 {
 /* Change dropdown link color on hover */
 
 .dropdown-content li:hover {
-    background-color: red;
+    background-color: #f6f7f1;
+    border-bottom: 1px solid #34a0a4;
 }
 
 /* Show dropdown on hover */
@@ -87,8 +91,19 @@ h1, h2, h3 {
 
 /* Hero Image and Mission Statement Style */
 
-#main-landing {
-    position: relative;
-    display: inline-block;
-    margin-top: 20px;
+.hero-image {
+    height: 75vh;
+    width: 100%;
+    background: url('../images/hero-image.jpg') no-repeat center;
+    overflow: hidden;
+}
+
+#mission-statement p {
+    font-family: "Homemade Apple", san serif;
+    color: #34a0a4;
+    font-size: 1.25em;
+    text-align: center;
+    width: 100%;
+    bottom: 50px;
+    font-weight: 800;
 }
