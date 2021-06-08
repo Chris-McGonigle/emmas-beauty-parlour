@@ -98,12 +98,14 @@ header h1 {
     overflow: hidden;
 }
 
-#mission-statement p {
+#mission-statement h3 {
     font-family: "Homemade Apple", san serif;
     color: #34a0a4;
-    font-size: 1.25em;
+    font-size: 1.5em;
     text-align: center;
     width: 100%;
     bottom: 50px;
-    font-weight: 800;
+    position: absolute;
+    bottom: 150px;
+    font-weight: bolder;
 }
