@@ -23,6 +23,11 @@ h3 {
     
 }
 
+p {
+    font-family: Montserrat;
+    color: #a1c9c9;
+}
+
 /* Style Nav Bar */
 
 header h1 {
@@ -108,4 +113,30 @@ header h1 {
     position: absolute;
     bottom: 150px;
     font-weight: bolder;
+}
+
+/* What we Offer styling */
+
+#services {
+    text-align: center;
+}
+
+.services-flexbox {
+    display: flex;
+}
+
+.services-item {
+    width: 33vw;
+    height: 300px;
+    margin: 10px;
+    border: 2px solid #db9487;
+    align-self: center;
+}
+
+.services-item a {
+    text-decoration: none;
+}
+
+.waxing {
+
 }
