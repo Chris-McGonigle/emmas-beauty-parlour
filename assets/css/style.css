@@ -18,13 +18,13 @@ header {
 h1,
 h2,
 h3 {
-    font-family: "Homemade Apple", san serif;
+    font-family: "Homemade Apple", sans-serif;
     color: #34a0a4;
     
 }
 
 p {
-    font-family: Montserrat;
+    font-family: Montserrat, sans-serif;
     color: #a1c9c9;
 }
 
@@ -123,14 +123,17 @@ header h1 {
 
 .services-flexbox {
     display: flex;
+    margin: 5px;
 }
 
 .services-item {
-    width: 33vw;
-    height: 300px;
-    margin: 10px;
+    justify-content: space-between;
+    margin: 5px;
+    height: 70vh;
     border: 2px solid #db9487;
     align-self: center;
+    display: block;
+    width: 100%;
 }
 
 .services-item a {
@@ -138,5 +141,17 @@ header h1 {
 }
 
 .waxing {
+    background:url('../images/waxing-homepage.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+.nails {
+    background: url('../images/nails-homepage.jpg')no-repeat center center;
+    background-size: cover;
+}
+
+.relaxation {
+    background: url('../images/relaxation-homepage.jpg')no-repeat center center;
+    background-size: cover;
 
 }
