@@ -129,9 +129,9 @@
             <h2>How to find us</h2>
 
             <!--Adapted from Google Map Tutorial on W3Schools-->
-            <div id="location-map">
+            <div id="location-container">
 
-                <div>Insert Map</div>
+                <div id="location-map"></div>
 
                 <div>
                     <p>Text directions</p>
@@ -158,7 +158,7 @@
             center: new google.maps.LatLng(54.349439, -7.424343),
             zoom: 5,
         };
-        var map = new google.maps.Map(document.getElementById("googleMap"), mapProp);
+        var map = new google.maps.Map(document.getElementById("location-map"), mapProp);
     }
 </script>
 

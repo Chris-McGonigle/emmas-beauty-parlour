@@ -208,3 +208,9 @@ header h1 {
     -ms-transform: rotate(10deg);
     -webkit-transform: rotate(10deg);
 }
+
+#location-map {
+    margin: 5px;
+    width: 40vw;
+    height: 300px;
+}
