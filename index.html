@@ -134,13 +134,12 @@
                 <div id="location-map"></div>
 
                 <div class="direction-text">
-                    <h3>Directions</h3>
 
-                    <h4>From Tempo:</h4>
+                    <h3>From Tempo:</h3>
                     <p>From the centre of town, take the B80 signposted for Brookeborough</p>
                     <p>Travel 2.6 miles and Emma’s Beauty Parlour is on the right, and signposted at the driveway entrance</p>
 
-                    <h4>From the A4 Belfast Road:</h4>
+                    <h3>From the A4 Belfast Road:</h3>
                     <p>Turn right signposted for Stonepark Baptist Church</p>
                     <p>After 200 feet, turn left onto Stonepark Road</p>
                     <p>Travel 2.3 miles and turn right signposted for Tempo (3 miles)</p>
@@ -166,10 +165,11 @@
     function myMap() {
         var mapProp = {
             center: new google.maps.LatLng(54.349439, -7.424343),
-            zoom: 5,
+            zoom: 10,
         };
         var map = new google.maps.Map(document.getElementById("location-map"), mapProp);
     }
+    
 </script>
 
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCFyNW0bAcoYLqxPu2z5b-2V9zy0dwDgbU&callback=myMap"></script>

@@ -209,8 +209,23 @@ header h1 {
     -webkit-transform: rotate(10deg);
 }
 
+#location-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
 #location-map {
     margin: 5px;
-    width: 40vw;
+    width: 50vw;
     height: 300px;
+    align-self: center;
+    border: 1px solid #db9487;
+    box-shadow: 5px 10px 10px #db9487;
+}
+
+#directions-text {
+    width: 50vw;
+    margin: 20px;
+    padding: 10em;
 }
