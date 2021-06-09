@@ -115,7 +115,9 @@ header h1 {
 
 /* What we Offer styling */
 
-#services, #about-us h2, #location h2 {
+#services,
+#about-us h2,
+#location h2 {
     text-align: center;
     font-size: 2em;
 }
@@ -169,9 +171,9 @@ header h1 {
 }
 
 .client-bio {
-    margin-left: 5px; 
+    margin-left: 5px;
     max-width: 60%;
-    
+
 }
 
 /* Polaroid Styling adpated from Savv Studio Tutorial */
@@ -183,8 +185,7 @@ header h1 {
     height: 500px;
 }
 
-.client-photo .client-polaroid
-{
+.client-photo .client-polaroid {
     position: absolute;
     border: 1px solid #db9487;
     background-color: white;
@@ -192,8 +193,7 @@ header h1 {
     box-shadow: 5px 10px 10px #db9487;
 }
 
-.client-photo .client-polaroid:after
-{
+.client-photo .client-polaroid:after {
     content: attr(polaroid-caption);
     position: absolute;
     bottom: 0px;
@@ -206,8 +206,7 @@ header h1 {
     color: #34a0a4;
 }
 
-.client-photo .client-polaroid
-{
+.client-photo .client-polaroid {
     right: 50px;
     top: 20px;
     transform: rotate(10deg);
@@ -234,4 +233,28 @@ header h1 {
     width: 50vw;
     margin: 20px;
     padding: 10em;
+}
+
+/* Footer Styling */
+
+#footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 150px;
+}
+
+/* Style Social Media Links */
+
+#social-links li {
+    display: inline;
+    list-style-type: none;
+    font-size: 150%;
+    margin: 5px;
+    padding: 10px;
+}
+
+#social-links a {
+    color: #34a0a4;
+    text-decoration: none;
 }
