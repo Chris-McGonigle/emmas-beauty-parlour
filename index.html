@@ -29,7 +29,7 @@
                         <li><a href="index.html">Home</a></li>
                         <li><a href="#services">Services</a></li>
                         <li><a href="#about-us">About Us</a></li>
-                        <li><a href="#">Location</a></li>
+                        <li><a href="#location">Location</a></li>
                     </ul>
                 </li>
             </ul>
@@ -39,6 +39,7 @@
     <!--Hero Image and Business Misson Statement-->
 
     <section>
+
         <div class="hero-image">
 
             <div id="mission-statement">
@@ -50,6 +51,7 @@
     </section>
 
     <!--Services Offered Cards-->
+
     <main>
         <section id="services">
             <h2>What we offer</h2>
@@ -57,18 +59,24 @@
             <div class="services-flexbox">
 
                 <div class="services-item nails">
-                    <a href="#"><h3>Nails</h3></a>
-                    
+                    <a href="#">
+                        <h3>Nails</h3>
+                    </a>
+
                 </div>
 
                 <div class="services-item waxing">
-                    <a href="#"><h3>Waxing</h3></a>
-                    
+                    <a href="#">
+                        <h3>Waxing</h3>
+                    </a>
+
                 </div>
-                
+
                 <div class="services-item relaxation">
-                    <a href="#"><h3>Relaxation</h3></a>
-                    
+                    <a href="#">
+                        <h3>Relaxation</h3>
+                    </a>
+
                 </div>
             </div>
         </section>
@@ -78,38 +86,57 @@
         <section id="about-us">
             <h2>About Us</h2>
 
-        <div class="about-us-box">
+            <div class="about-us-box">
 
-            <div class="client-bio">
-                <p>Emma Robinson is a highly regarded, professional beautician who specialises in beauty make-up. Her signature look, best described as fresh and flawless skin with a radiant glow makes her indispensable to models, brides and everyday women alike. </p>
-                <br>
-                <p>Emma has an extensive background in the fashion and beauty industry. She has been plying her skills for over 20 years. Emma lay her career foundations with CIBTEC and CIDESCO qualifications in beauty therapy from the Bronwyn Conroy School of Beauty. </p>
-                <br>
-                <p>Emma first gained recognition working at the renowned ‘Transformations’ Beauty Studio in Lisburn, and her clientele included local TV and modelling personalities. After 5 years working and further studying in Lisburn, Emma returned to her native Fermanagh to open her own salon in 2005. </p>
-                <br>
-                <p>Emma is extremely knowledgeable about the make-up and beauty industry and keeps in touch with the latest make-up and beauty trends, techniques and products. In 2012 Emma became fully qualified in reflexology and holistic massage, specialising in the treatment of cancer patients. </p>
-                <br>
-                <p>Emma is based in in Tempo, County Fermanagh, and works out of her relaxing home make-up and beauty studio.  While being completely private in a dedicated modern treatment room, you can relax in the stress free surroundings and enjoy the attention that makes each visit special. </p>
-            </div>
+                <div class="client-bio">
+                    <p>Emma Robinson is a highly regarded, professional beautician who specialises in beauty make-up.
+                        Her signature look, best described as fresh and flawless skin with a radiant glow makes her
+                        indispensable to models, brides and everyday women alike. </p>
+                    <br>
+                    <p>Emma has an extensive background in the fashion and beauty industry. She has been plying her
+                        skills for over 20 years. Emma lay her career foundations with CIBTEC and CIDESCO qualifications
+                        in beauty therapy from the Bronwyn Conroy School of Beauty. </p>
+                    <br>
+                    <p>Emma first gained recognition working at the renowned ‘Transformations’ Beauty Studio in Lisburn,
+                        and her clientele included local TV and modelling personalities. After 5 years working and
+                        further studying in Lisburn, Emma returned to her native Fermanagh to open her own salon in
+                        2005. </p>
+                    <br>
+                    <p>Emma is extremely knowledgeable about the make-up and beauty industry and keeps in touch with the
+                        latest make-up and beauty trends, techniques and products. In 2012 Emma became fully qualified
+                        in reflexology and holistic massage, specialising in the treatment of cancer patients. </p>
+                    <br>
+                    <p>Emma is based in in Tempo, County Fermanagh, and works out of her relaxing home make-up and
+                        beauty studio. While being completely private in a dedicated modern treatment room, you can
+                        relax in the stress free surroundings and enjoy the attention that makes each visit special.
+                    </p>
+                </div>
 
-            <div class="client-photo">
+                <div class="client-photo">
 
-                <div class="client-polaroid" polaroid-caption="Emma Robinson">
-                    <img src="./assets/images/emma-resized.png" alt="Owner, Emma Robinson">
+                    <div class="client-polaroid" polaroid-caption="Emma Robinson">
+                        <img src="./assets/images/emma-resized.png" alt="Owner, Emma Robinson">
+                    </div>
+
                 </div>
 
             </div>
-
-        </div>
         </section>
 
         <!--Location Details-->
 
         <section id="location">
             <h2>How to find us</h2>
-            <div>Insert Map</div>
-            <div>
-                <p>Text directions</p>
+
+            <!--Adapted from Google Map Tutorial on W3Schools-->
+            <div id="location-map">
+
+                <div>Insert Map</div>
+
+                <div>
+                    <p>Text directions</p>
+                </div>
+
             </div>
         </section>
     </main>
@@ -122,6 +149,19 @@
     </footer>
 
 </body>
+
 <script src="https://kit.fontawesome.com/bc577d1dcb.js" crossorigin="anonymous"></script>
+
+<script>
+    function myMap() {
+        var mapProp = {
+            center: new google.maps.LatLng(54.349439, -7.424343),
+            zoom: 5,
+        };
+        var map = new google.maps.Map(document.getElementById("googleMap"), mapProp);
+    }
+</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCFyNW0bAcoYLqxPu2z5b-2V9zy0dwDgbU&callback=myMap"></script>
 
 </html>
