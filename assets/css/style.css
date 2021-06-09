@@ -120,6 +120,12 @@ header h1 {
 #location h2 {
     text-align: center;
     font-size: 2em;
+    text-shadow: 5px 10px 10px #34a0a4;
+}
+
+#services h3 {
+    text-shadow: 5px 10px 10px #000;
+
 }
 
 .services-flexbox {
