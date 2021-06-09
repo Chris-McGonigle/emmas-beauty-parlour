@@ -238,16 +238,31 @@ header h1 {
 /* Footer Styling */
 
 #footer {
+    display: flex;
     position: relative;
     bottom: 0;
+    color: #34a0a4;
     width: 100%;
-    height: 150px;
+    height: auto;
+    border: 1px solid #db9487;
+}
+
+/* Style Opening Times */
+
+#footer h2 {
+    padding-left: 40px;
+}
+
+#opening-times li {
+    list-style-type: none;
+    font-family: Montserrat, san serif;
+
 }
 
 /* Style Social Media Links */
 
 #social-links li {
-    display: inline;
+    flex-direction: row;
     list-style-type: none;
     font-size: 150%;
     margin: 5px;
@@ -255,6 +270,12 @@ header h1 {
 }
 
 #social-links a {
-    color: #34a0a4;
     text-decoration: none;
+    color: inherit;
+}
+
+/* Add colour change on Hover to social links */
+
+#social-links li:hover {
+    color: #db9487;
 }
