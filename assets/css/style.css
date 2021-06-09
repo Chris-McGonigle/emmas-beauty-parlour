@@ -159,10 +159,23 @@ header h1 {
 
 /* About Us styling */
 
+.about-us-box {
+    display: flex;
+    flex-direction: row;
+}
+
+.client-bio {
+    margin-left: 5px; 
+    max-width: 60%;
+    
+}
+
 /* Polaroid Styling adpated from Savv Studio Tutorial */
 
 .client-photo {
     position: relative;
+    left: 40%;
+    top: 75px;
     height: 750px;
 }
 
