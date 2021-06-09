@@ -159,3 +159,41 @@ header h1 {
 
 /* About Us styling */
 
+/* Polaroid Styling adpated from Savv Studio Tutorial */
+
+.client-photo {
+    position: relative;
+    height: 750px;
+}
+
+.client-photo .client-polaroid
+{
+    position: absolute;
+    border: 1px solid #db9487;
+    background-color: white;
+    padding: 15px 15px 60px 15px;
+    box-shadow: 5px 10px 10px #db9487;
+}
+
+.client-photo .client-polaroid:after
+{
+    content: attr(polaroid-caption);
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: calc(100% - 20px);
+    padding: 0;
+    font-size: 30px;
+    text-align: center;
+    font-family: "Homemade Apple", san serif;
+    color: #34a0a4;
+}
+
+.client-photo .client-polaroid
+{
+    right: 50px;
+    top: 20px;
+    transform: rotate(10deg);
+    -ms-transform: rotate(10deg);
+    -webkit-transform: rotate(10deg);
+}
