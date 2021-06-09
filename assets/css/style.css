@@ -13,6 +13,7 @@ header {
     margin-left: 10px;
     height: 10vh;
     line-height: 75px;
+    
 }
 
 h1,
@@ -116,7 +117,7 @@ header h1 {
 
 /* What we Offer styling */
 
-#services {
+#services, #about-us h2 {
     text-align: center;
     font-size: 2em;
 }
@@ -154,5 +155,7 @@ header h1 {
 .relaxation {
     background: url('../images/relaxation-homepage.jpg')no-repeat center center;
     background-size: cover;
-
 }
+
+/* About Us styling */
+
