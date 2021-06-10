@@ -242,7 +242,7 @@ header h1 {
 /* Footer Styling */
 
 #footer {
-    display: flex;
+    display: inline-block;
     position: relative;
     bottom: 0;
     color: #4f5051;
@@ -253,21 +253,50 @@ header h1 {
 
 /* Style Opening Times */
 
-#footer h2 {
+#opening {
+    width: 50%;
+    display: inline-block;
+}
+
+#opening h2 {
     padding-left: 40px;
+}
+
+#opening-times {
+    margin: 0;
 }
 
 #opening-times li {
     list-style-type: none;
     font-family: Montserrat, san serif;
+    padding: 0;
+}
+
+/* Style Phone Number */
+
+#phone {
+    display: inherit;
+    float: right;
+    width: 50%;
+    padding: 0;
+    text-align: center;
+}
+
+#phone p {
+    font-size: 150%;
 }
 
 /* Style Social Media Links */
 
+#social-links {
+    text-align: center;
+    margin: 0;
+}
+
 #social-links li {
-    flex-direction: row;
+    display: inline-block;
     list-style-type: none;
-    font-size: 150%;
+    font-size: 200%;
     margin: 5px;
     padding: 10px;
 }
@@ -275,6 +304,7 @@ header h1 {
 #social-links a {
     text-decoration: none;
     color: inherit;
+    align-items: center;
 }
 
 /* Add colour change on Hover to social links */
