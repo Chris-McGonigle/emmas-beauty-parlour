@@ -100,21 +100,20 @@ header h1 {
     width: 100%;
     background: url('../images/hero-image.jpg');
     background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #mission-statement h3 {
     font-family: "Homemade Apple", san serif;
-    color: #34a0a4;
+    color: #4f5051;
     font-size: 2em;
     text-align: center;
     width: 100%;
     bottom: 50px;
     position: absolute;
     bottom: 125px;
-    font-weight: bolder;
 }
 
 /* What we Offer styling */
@@ -183,7 +182,6 @@ header h1 {
 .client-bio {
     margin-left: 5px;
     max-width: 60%;
-
 }
 
 /* Polaroid Styling adpated from Savv Studio Tutorial */
@@ -228,6 +226,11 @@ header h1 {
 
 .direction-text {
     text-align: center;
+}
+
+.direction-text h3 {
+    font-size: 1.5em;
+    text-shadow: 5px 10px 10px #34a0a4;
 }
 
 #location-container {
