@@ -24,7 +24,7 @@ h3 {
 
 p {
     font-family: Montserrat, sans-serif;
-    color: #a1c9c9;
+    color: #4f5051;
 }
 
 /* Style Nav Bar */
@@ -245,7 +245,7 @@ header h1 {
     display: flex;
     position: relative;
     bottom: 0;
-    color: #34a0a4;
+    color: #4f5051;
     width: 100%;
     height: auto;
     border: 1px solid #db9487;
@@ -260,6 +260,7 @@ header h1 {
 #opening-times li {
     list-style-type: none;
     font-family: Montserrat, san serif;
+    
 
 }
 
