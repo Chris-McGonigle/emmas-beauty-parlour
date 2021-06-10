@@ -52,7 +52,7 @@ The website is aimed at a female audience, who make up 95% of the clients custom
 
 ![Desktop Version](./assets/wireframes/homepage-desktop.png)
 
-![Mobile Version](../assets/wireframes/homepage-mobile.png)
+![Mobile Version](./assets/wireframes/homepage-mobile.png)
 
 
 
@@ -87,6 +87,7 @@ The website is aimed at a female audience, who make up 95% of the clients custom
 
 * HTML
 * CSS
+* Javascript (For Google Map in Location Section)
 
 ## Testing
 <hr>
@@ -108,8 +109,19 @@ The steps to deploy are as follows:
 * From the source section drop-down menu, select the Master Branch
 * Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
-The live link can be found here - https://code-institute-org.github.io/love-running-2.0/index.html
+The live link can be found here - 
 
 ## Credits
 <hr>
 
+1.  [W3Schools](https://www.w3schools.com/) Tutorials were used to help in the coding of the dropdown navigation bar, the parallax scrolling effect and the insertion of the location map using Google Maps API.
+
+2. The creation and styling of the Polaroid image was adapted from a tutorial by [Savv Studio](https://medium.com/@SavvStudio/tutorial-make-your-images-look-like-polaroid-pictures-with-html-and-css-7b1120732dd1). 
+
+3. I viewed numerous tutorials on Youtube for help with the box model, display properties and the flex-box model. Specifically, tutorials by [Web Dev Simplfied](https://www.youtube.com/channel/UCFbNIlppjAuEX4znoulh0Cw), [Kevin Powell](https://www.youtube.com/channel/UCJZv4d5rbIKd4QHMPkcABCw) and [Traversy Media](https://www.youtube.com/channel/UC29ju8bIPH5as8OGnQzwJyA) helped further my understanding of positioning.  
+
+4. Colour Pallette choice were influenced by a blog piece on calm colour pallettes by the [Muffin Group](https://muffingroup.com/blog/calm-color-palette/) 
+
+5. Images for the site were sourced copyright free from [Pexels](https://www.pexels.com) and [Unsplash](https://unsplash.com). All other pictures are supplied by the developer and are originals by him.
+
+6. Text for the About Us section was adapted from an article by [Emma Hanna Make Up and Beauty](http://emmahanna.com/about-emma-hanna-professional-make-up-artist-belfast-northern-ireland/)
