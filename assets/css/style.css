@@ -224,6 +224,12 @@ header h1 {
     -webkit-transform: rotate(10deg);
 }
 
+/* How to find us styling */
+
+.direction-text {
+    text-align: center;
+}
+
 #location-container {
     display: flex;
     align-items: center;
