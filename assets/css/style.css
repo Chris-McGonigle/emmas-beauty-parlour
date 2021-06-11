@@ -119,7 +119,7 @@ header h1 {
 
 #services h2 {
     text-align: center;
-    font-size: 25px;
+    font-size: 2em;
     text-shadow: 5px 10px 10px #34a0a4;
 }
 
@@ -138,17 +138,17 @@ header h1 {
 .services-flexbox {
     display: flex;
     margin: 5px;
+    flex-direction: column;
 }
 
 .services-item {
-    justify-content: space-between;
     margin: 5px;
     height: 70vh;
     border: 2px solid #db9487;
     align-self: center;
-    display: block;
     width: 100%;
     font-size: 1.5em;
+    text-align: center;
 }
 
 .services-item a {
