@@ -117,7 +117,12 @@ header h1 {
 
 /* What we Offer styling */
 
-#services,
+#services h2 {
+    text-align: center;
+    font-size: 25px;
+    text-shadow: 5px 10px 10px #34a0a4;
+}
+
 #about-us h2,
 #location h2 {
     text-align: center;
