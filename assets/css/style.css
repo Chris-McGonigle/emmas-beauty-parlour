@@ -217,6 +217,8 @@ header h1 {
 
 .client-photo {
     transform: scale(0.75);
+    display: flex;
+    justify-content: center;
 
 }
 
@@ -345,6 +347,11 @@ header h1 {
     #location-container {
         flex-direction: row;
     }
+
+    /* .client-photo {
+        display: flex;
+        justify-content: center;
+    } */
 
     #opening,
     #phone {
