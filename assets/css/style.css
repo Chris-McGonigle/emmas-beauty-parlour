@@ -275,7 +275,6 @@ header h1 {
 /* Footer Styling */
 
 #footer {
-    display: inline-block;
     color: #4f5051;
     height: auto;
 }
@@ -336,4 +335,23 @@ header h1 {
 
 #social-links li:hover {
     color: #db9487;
+}
+
+/* Media Queries - Screens over 600px wide */
+
+@media screen and (min-width: 600px) {
+
+    .services-flexbox,
+    #location-container {
+        flex-direction: row;
+    }
+
+    #opening,
+    #phone {
+        width: 50%;
+    }
+
+    .phone-number {
+        float: right;
+    }
 }
