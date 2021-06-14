@@ -348,10 +348,13 @@ header h1 {
         flex-direction: row;
     }
 
-    /* .client-photo {
-        display: flex;
-        justify-content: center;
-    } */
+    .client-photo {
+        transform: scale(0.5);
+    }
+
+    .client-bio {
+        margin: 200px 5px 0 5px;
+    }
 
     #opening,
     #phone {
