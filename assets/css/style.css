@@ -356,6 +356,10 @@ header h1 {
         margin: 200px 5px 0 5px;
     }
 
+    .direction-text {
+        transform: scale(0.9);
+    }
+
     #opening,
     #phone {
         width: 50%;
@@ -364,4 +368,41 @@ header h1 {
     .phone-number {
         float: right;
     }
+}
+
+/* Media Queries - Screens over 800px wide */
+
+@media screen and (min-width: 800px) {
+
+    header {
+        height: 10vh;
+        font-size: 1.5em;
+    }
+
+    .about-us-box {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: revert;
+    }
+
+    #qualification-logo {
+        display: flex;
+        justify-content: center;
+        order: 3;
+        width: 100%;
+    }
+
+    .client-bio {
+        margin: 10px 5px 0 10px;
+        width: 60%;
+        order: 1;
+        text-align: left;
+    }
+
+    .client-photo {
+        transform: scale(0.7);
+        width: 35%;
+        order: 2;
+    }
+
 }
