@@ -59,7 +59,7 @@ header h1 {
     position: absolute;
     padding-left: 20px;
     top: 0;
-    right 10px;
+    right: 10px;
 }
 
 /* Style dropdown content hidden by default */
@@ -199,6 +199,18 @@ header h1 {
 .client-bio {
     margin: 300px 5px 0 5px;
     text-align: center;
+}
+
+#qualification-logo {
+    display: flex;
+    justify-content: center;
+}
+
+.qual-logo {
+    height: 100px;
+    width: 100px;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 /* Polaroid Styling adpated from Savv Studio Tutorial */
