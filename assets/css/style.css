@@ -11,7 +11,7 @@ header {
     background-color: #f6f7f1;
     color: #34a0a4;
     margin-left: 10px;
-    height: 10vh;
+    height: 6vh;
 }
 
 h1,
@@ -36,7 +36,9 @@ p {
 header h1 {
 
     font-size: 1.1em;
-    float: left;
+    position: absolute;
+    top: 0;
+    left: 10px;
 }
 
 #dropdown-main {
@@ -53,8 +55,11 @@ header h1 {
 
 .home-dropdown {
     font-family: Montserrat, san serif;
-    position: relative;
-    display: inline-block
+    display: inline-block;
+    position: absolute;
+    padding-left: 20px;
+    top: 0;
+    right 10px;
 }
 
 /* Style dropdown content hidden by default */
