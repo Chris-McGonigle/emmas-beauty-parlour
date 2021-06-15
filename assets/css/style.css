@@ -149,6 +149,10 @@ header h1 {
     text-align: center;
 }
 
+.testimonial img {
+    border-radius: 20px;
+}
+
 /* Hero Image and Mission Statement Style */
 
 .hero-image {
