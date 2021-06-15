@@ -354,6 +354,10 @@ header h1 {
     font-size: 1.5em;
 }
 
+.what-is-waxing {
+    text-align: center;
+}
+
 /* Media Queries - Screens over 600px wide */
 
 @media screen and (min-width: 600px) {
