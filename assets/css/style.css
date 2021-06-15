@@ -19,11 +19,44 @@ h2,
 h3 {
     font-family: "Homemade Apple", sans-serif;
     color: #34a0a4;
+    text-align: center;
 }
 
-p {
+p,
+table {
     font-family: Montserrat, sans-serif;
     color: #4f5051;
+}
+
+/* Styling for all tables */
+
+table {
+    color: #4f5051;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+table, th, td {
+    border: 2px solid #db9487;
+    border-collapse: collapse;
+}
+
+th {
+    height: 50px;
+}
+
+tr {
+    height: 40px;
+}
+
+.table-price {
+    text-align: center;
+}
+
+.treatment-type {
+    padding-left: 10px;
 }
 
 /* Style Nav Bar */
@@ -130,14 +163,10 @@ header h1 {
 
 /* What we Offer styling */
 
-#services h2 {
-    text-align: center;
-    font-size: 2em;
-    text-shadow: 5px 10px 10px #34a0a4;
-}
-
+#services h2,
 #about-us h2,
-#location h2 {
+#location h2,
+#waxing-price-list h2 {
     text-align: center;
     font-size: 2em;
     text-shadow: 5px 10px 10px #34a0a4;
