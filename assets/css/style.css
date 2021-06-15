@@ -385,6 +385,7 @@ header h1 {
 
 .what-is-waxing {
     text-align: center;
+    margin: 5px;
 }
 
 /* Media Queries - Screens over 600px wide */
@@ -451,6 +452,10 @@ header h1 {
         transform: scale(0.7);
         width: 35%;
         order: 2;
+    }
+
+    table {
+        width: 50%;
     }
 }
 
