@@ -404,6 +404,22 @@ header h1 {
     margin: 5px;
 }
 
+/* Nails Page Styling */
+
+.nails-main-image {
+    height: 75vh;
+    width: 100%;
+    background: url('../images/nails-main-image.jpeg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 5px;
+    text-align: center;
+    font-size: 1.5em;
+
+}
+
 /* Media Queries - Screens over 600px wide */
 
 @media screen and (min-width: 600px) {
