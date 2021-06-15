@@ -183,7 +183,8 @@ header h1 {
 #about-us h2,
 #location h2,
 #waxing-price-list h2,
-#nails-price-list h2 {
+#nails-price-list h2,
+#relaxation-price-list h2 {
     text-align: center;
     font-size: 2em;
     text-shadow: 5px 10px 10px #34a0a4;
