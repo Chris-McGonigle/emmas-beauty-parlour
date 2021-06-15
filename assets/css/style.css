@@ -87,7 +87,7 @@ header h1 {
 /* Style dropdown menu */
 
 .home-dropdown {
-    font-family: Montserrat, san serif;
+    font-family: Montserrat, sans-serif;
     display: inline-block;
     position: absolute;
     padding-left: 20px;
@@ -421,7 +421,6 @@ header h1 {
     margin-top: 5px;
     text-align: center;
     font-size: 1.5em;
-
 }
 
 /* Relaxation Page Styling */
@@ -437,9 +436,27 @@ header h1 {
     margin-top: 5px;
     text-align: center;
     font-size: 1.5em;
-
 }
 
+/* Contact Form Styling */
+
+.contact {
+    height: 60vh;
+}
+
+.contact-form {
+    color: #000;
+    font-family: Montserrat, sans-serif;
+    font-weight: 800;
+    border: 2px solid #db9487;
+    background-color:rgba(52, 160, 164, 0.7);
+    border-radius: 5px;
+    box-shadow: 5px 10px 10px #db9487;
+    padding: 15px;
+    margin: 20px;
+    text-align: center;
+
+}
 /* Media Queries - Screens over 600px wide */
 
 @media screen and (min-width: 600px) {
