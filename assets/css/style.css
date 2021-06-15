@@ -144,6 +144,7 @@ header h1 {
     border: 2px solid #db9487;
     background-color:rgba(52, 160, 164, 0.7);
     border-radius: 5px;
+    box-shadow: 5px 10px 10px #db9487;
     padding: 15px;
     margin: 20px;
     text-align: center;
@@ -471,6 +472,10 @@ header h1 {
 
     table {
         width: 50%;
+    }
+
+    #client-testimonials {
+        display: flex;
     }
 }
 
