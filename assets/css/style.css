@@ -182,7 +182,8 @@ header h1 {
 #services h2,
 #about-us h2,
 #location h2,
-#waxing-price-list h2 {
+#waxing-price-list h2,
+#nails-price-list h2 {
     text-align: center;
     font-size: 2em;
     text-shadow: 5px 10px 10px #34a0a4;
@@ -399,7 +400,8 @@ header h1 {
     font-size: 1.5em;
 }
 
-.what-is-waxing {
+.what-is-waxing, 
+.nails-explanation {
     text-align: center;
     margin: 5px;
 }
