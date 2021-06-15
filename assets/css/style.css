@@ -138,6 +138,17 @@ header h1 {
     float: left;
 }
 
+/* Style Client Testimonial Sections */
+
+.testimonial {
+    border: 2px solid #db9487;
+    background-color:rgba(52, 160, 164, 0.7);
+    border-radius: 5px;
+    padding: 15px;
+    margin: 20px;
+    text-align: center;
+}
+
 /* Hero Image and Mission Statement Style */
 
 .hero-image {
