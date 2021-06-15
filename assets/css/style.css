@@ -402,7 +402,8 @@ header h1 {
 }
 
 .what-is-waxing, 
-.nails-explanation {
+.nails-explanation,
+.relaxation-explanation {
     text-align: center;
     margin: 5px;
 }
