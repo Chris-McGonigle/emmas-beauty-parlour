@@ -465,6 +465,7 @@ header h1 {
 }
 
 .contact-form h2 {
+    color: #000;
     margin: 0;
 }
 
@@ -498,6 +499,11 @@ header h1 {
     background-color: #f6f7f1;;
 }
 
+.reset-button {
+    background-color: red;
+    font-weight: 400;
+    border-radius: 5px;
+}
 
 #contact-footer {
     margin-top: 40px;
