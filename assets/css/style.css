@@ -464,6 +464,12 @@ header h1 {
     text-align: left;
 }
 
+.contact-form h2 {
+    margin: 0;
+}
+
+/* Style text input box */
+
 .text-input {
     width: 95%;
     padding: 5px;
@@ -475,6 +481,23 @@ header h1 {
     margin: 5px auto;
    
 }
+
+/* Style Contact form buttons */
+
+.submit-button  {
+    background-color: #db9487;
+    padding: 5px 5px;
+    color: #4f5051;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+.submit-button:hover {
+    background-color: #f6f7f1;;
+}
+
 
 #contact-footer {
     margin-top: 40px;
