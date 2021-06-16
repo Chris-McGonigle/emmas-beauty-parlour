@@ -110,6 +110,10 @@ header h1 {
     border-radius: 25px;
 }
 
+.services-dropdown {
+    display: none;
+}
+
 /* Style dropdown links */
 
 .dropdown-content li {
@@ -136,6 +140,10 @@ header h1 {
 .home-dropdown:hover .dropdown-content {
     display: block;
     float: left;
+}
+
+#services:hover .services-dropdown {
+    display: block;
 }
 
 /* Style Client Testimonial Sections */
