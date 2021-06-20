@@ -7,7 +7,7 @@ Following a hiatus from work due to a pregnancy and the covid pandemic, the clie
 Until now the client had been using social media channels and word of mouth to drive business leads, but during the pandemic she seen how useful a website was for her competitors during lockdown and now wants to get one set up for her own business.
 
 ## Site Design Considerations
-<hr>
+
 
 ### Client Expectations
 
@@ -44,7 +44,6 @@ The website is aimed at a female audience, who make up 95% of the clients custom
 
 <!-- Discuss colour pallette choices-->
 
-<!-- Mobile first discussion-->
 
 ## Wireframes
 
@@ -54,6 +53,17 @@ The website is aimed at a female audience, who make up 95% of the clients custom
 
 ![Mobile Version](./assets/wireframes/homepage-mobile.png)
 
+### Services Offered Pages
+
+![Desktop Version](.assets/wireframes/services-pages-desktop.png)
+
+![Mobile Version](.assets/wireframes/services-pages-mobile.png)
+
+### Contact Us Page
+
+![Desktop Version](.assets/wireframes/contact-form-desktop.png)
+
+![Mobile Version](.assets/wireframes/contact-form-mobile.png)
 
 
 ## Features
