@@ -55,15 +55,15 @@ The website is aimed at a female audience, who make up 95% of the clients custom
 
 ### Services Offered Pages
 
-![Desktop Version](.assets/wireframes/services-pages-desktop.png)
+![Desktop Version](./assets/wireframes/services-pages-desktop.png)
 
-![Mobile Version](.assets/wireframes/services-pages-mobile.png)
+![Mobile Version](./assets/wireframes/services-pages-mobile.png)
 
 ### Contact Us Page
 
-![Desktop Version](.assets/wireframes/contact-form-desktop.png)
+![Desktop Version](./assets/wireframes/contact-form-desktop.png)
 
-![Mobile Version](.assets/wireframes/contact-form-mobile.png)
+![Mobile Version](./assets/wireframes/contact-form-mobile.png)
 
 
 ## Features
