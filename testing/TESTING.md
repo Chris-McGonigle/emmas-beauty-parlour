@@ -18,6 +18,10 @@ Four errors were found as detailed in the following screenshot:
 
 * CSS
 
+CSS was tested using the [W3C CSS Validation Service - Jigsaw](https://jigsaw.w3.org/css-validator/)
 
+One error and five warnings were found as detailed in the following screenshot:
+
+![CSS Testing Results](./testing-images/css-testing.png) "CSS testing results"
 
 ### Unfixed Bugs
