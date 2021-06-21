@@ -100,7 +100,8 @@ The website is aimed at a female audience, who make up 95% of the clients custom
 * Javascript (For Google Map in Location Section)
 
 ## Testing
-<hr>
+
+All tesing carried out during the lifetime of this project can be found by following this link to dedicated [Testing documentation](../testing/testing.md)
 
 ### Validator Testing
 
