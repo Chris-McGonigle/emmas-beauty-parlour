@@ -14,8 +14,10 @@ HTML was tested using the [W3C Markup Validation Service](https://validator.w3.o
 
 Four errors were found as detailed in the following screenshot:
 
-
+![HTML Testing Results](./testing-images/html-testing.png) "HTML testing results" 
 
 * CSS
+
+
 
 ### Unfixed Bugs
