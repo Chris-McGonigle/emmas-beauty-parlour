@@ -16,6 +16,10 @@ Four errors were found as detailed in the following screenshot:
 
 ![HTML Testing Results](./testing-images/html-testing.png) "HTML testing results" 
 
+#### Error fixes
+
+1. 
+
 * CSS
 
 CSS was tested using the [W3C CSS Validation Service - Jigsaw](https://jigsaw.w3.org/css-validator/)
