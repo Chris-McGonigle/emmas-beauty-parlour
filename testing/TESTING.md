@@ -24,6 +24,8 @@ Four errors were found as detailed in the following screenshot:
 
 3. Atribute polaroid caption not allowed on div at that point. Added additional div inside parent div to provide caption. Restyled CSS of caption. Retested: ERROR PASSED.
 
+4. Stray div tag identified. Removed surplus div tag. Retested: ERROR PASSED.
+
 
 * CSS
 
