@@ -26,6 +26,8 @@ Four errors were found as detailed in the following screenshot:
 
 4. Stray div tag identified. Removed surplus div tag. Retested: ERROR PASSED.
 
+5. Stray script start tag identified. Moved all script elements inside body tags of HTML. Retested: ERROR PASSED.
+
 
 * CSS
 
