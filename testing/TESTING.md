@@ -76,3 +76,16 @@ Retested: UNABLE TO RETEST.
 2. 12 low contrast errors were found on the page. Upon closer investigation, these errors were found to be exclusively on the page headings. Possible solutions were to darken the text colour, or to provide a contrasting background to the headings to help them stand out. Using [Google Colour picker](https://htmlcolors.com/google-color-picker), the original colour #34a0a4, was adjusted to make it slightly darker, whilst still maintaining the original design brief of using calm natural colours such as greens and creams. #27787a was selected and tested. 
 
 Retested: CONTRAST ERRORS FIXED
+
+3. Six alerts were received regarding headings. 
+
+* one skipped heading alert
+    * this alert referred to the Mission Statement text across the hero image. The heading was changed from h3 to a h2, and restyled to the desired size and position.
+
+* two possible heading alerts
+    * one of these alerts was generated within the Google map iframe which I am unable to address. The second alert was produced by the business phone number, which is set to pargraph text. As this is not a heading, this warning was ignored.
+
+ * one very small text, and two redundant title texts warnings
+    * all three of these warnings were generated within the google map iFrame, which again I am unable to amend at this time, but will address at a later date to ensure maximum accessibility.
+
+Retested: ERRORS FIXED WHERE ABLE - MAP ERRORS REMAIN       
