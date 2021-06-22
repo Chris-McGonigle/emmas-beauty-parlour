@@ -9,7 +9,7 @@ body {
 
 header {
     background-color: #f6f7f1;
-    color: #34a0a4;
+    color: #27787a;
     margin-left: 10px;
     height: 6vh;
 }
@@ -18,7 +18,7 @@ h1,
 h2,
 h3 {
     font-family: "Homemade Apple", sans-serif;
-    color: #34a0a4;
+    color: #27787a;
     text-align: center;
 }
 
@@ -101,7 +101,7 @@ header h1 {
     display: none;
     position: absolute;
     background-color: #db9487;
-    color: #34a0a4;
+    color: #27787a;
     padding: 0;
     z-index: 1;
     right: 0;
@@ -125,7 +125,7 @@ header h1 {
 
 .dropdown-content a {
     text-decoration: none;
-    color: #34a0a4;
+    color: #27787a;
 }
 
 /* Change dropdown link color on hover */
@@ -177,7 +177,7 @@ header h1 {
 
 #mission-statement h3 {
     font-family: "Homemade Apple", sans-serif;
-    color: #fff;
+    color: #27787a;
     font-size: 2.5em;
     text-align: center;
     width: 100%;
@@ -195,7 +195,7 @@ header h1 {
 #relaxation-price-list h2 {
     text-align: center;
     font-size: 2em;
-    text-shadow: 5px 10px 10px #34a0a4;
+    text-shadow: 5px 10px 10px #27787a;
 }
 
 #services h3 {
@@ -295,7 +295,7 @@ header h1 {
     font-size: 30px;
     text-align: center;
     font-family: "Homemade Apple", sans-serif;
-    color: #34a0a4;
+    color: #27787a;
 }
 
 .client-photo .client-polaroid {
@@ -307,7 +307,7 @@ header h1 {
     font-size: 30px;
     text-align: center;
     font-family: "Homemade Apple", sans-serif;
-    color: #34a0a4;
+    color: #27787a;
 }
 
 /* How to find us styling */
@@ -318,7 +318,7 @@ header h1 {
 
 .direction-text h3 {
     font-size: 1.5em;
-    text-shadow: 5px 10px 10px #34a0a4;
+    text-shadow: 5px 10px 10px #27787a;
 }
 
 #location-container {

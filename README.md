@@ -93,7 +93,7 @@ The website is aimed at a female audience, who make up 95% of the clients custom
 
 * Ecommerce Site
 
-## Technologies Used section?
+## Technologies Used
 
 * HTML5
 * CSS3

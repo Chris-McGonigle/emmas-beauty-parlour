@@ -43,14 +43,36 @@ One error and five warnings were found as detailed in the following screenshot:
 
 #### Error and Warning fixes
 
-1. On screens over 800px, flex-direction was set to 'revert'. Changed flex-direction value to 'row'. Retested: ERROR PASSED.
+1. On screens over 800px, flex-direction was set to 'revert'. Changed flex-direction value to 'row'. 
 
-2. Font family names contained whitespace in error on lines 179, 297 and 354. Fixed font names to correct syntax. Retested: WARNING REMOVED.
+Retested: ERROR PASSED.
 
-3. The transform properties of the polaroid client image presented with an unknown vendor extension warning. Removed -ms and -webkit transform extensions. Retested: WARNING REMOVED.
+2. Font family names contained whitespace in error on lines 179, 297 and 354. Fixed font names to correct syntax. 
+
+Retested: WARNING REMOVED.
+
+3. The transform properties of the polaroid client image presented with an unknown vendor extension warning. Removed -ms and -webkit transform extensions. 
+
+Retested: WARNING REMOVED.
 
 The CSS was then retested in it's entirety. All errors were found to be fixed and warnings removed. No new issues had arisen.
 
 ![CSS retest results](./testing-images/css-retest.png) "CSS retest results"
 
-### Unfixed Bugs
+### Accessibility testing
+
+To test for any accessibility issues, the web accessibility evaluation tool (WAVE) by [WebAIM](https://wave.webaim.org) was used on each page. 
+
+The following results were found.
+
+#### Homepage
+
+![Homepage accessibility results](./testing-images/homepage-accessibility.png)
+
+1. The ten errors returned were all due to missing aternative text in the image map area. As this was embedded using a Google API, I am unable to address these errors at present until I have developed further skills in their use. 
+
+Retested: UNABLE TO RETEST.
+
+2. 12 low contrast errors were found on the page. Upon closer investigation, these errors were found to be exclusively on the page headings. Possible solutions were to darken the text colour, or to provide a contrasting background to the headings to help them stand out. Using [Google Colour picker](https://htmlcolors.com/google-color-picker), the original colour #34a0a4, was adjusted to make it slightly darker, whilst still maintaining the original design brief of using calm natural colours such as greens and creams. #27787a was selected and tested. 
+
+Retested: CONTRAST ERRORS FIXED
