@@ -14,7 +14,7 @@ HTML was tested using the [W3C Markup Validation Service](https://validator.w3.o
 
 Four errors were found as detailed in the following screenshot:
 
-![HTML Testing Results](./testing-images/html-testing.png) "HTML testing results" 
+![HTML testing results](./testing-images/html-testing.png) "HTML testing results" 
 
 #### Error fixes
 
@@ -27,6 +27,10 @@ Four errors were found as detailed in the following screenshot:
 4. Stray div tag identified. Removed surplus div tag. Retested: ERROR PASSED.
 
 5. Stray script start tag identified. Moved all script elements inside body tags of HTML. Retested: ERROR PASSED.
+
+The HTML was then retested in it's entirety. All errors were found to be fixed and no new issues had arisen.
+
+![HTML retest results](./testing-images/html-retest.png)"HTML retest results"
 
 
 * CSS
