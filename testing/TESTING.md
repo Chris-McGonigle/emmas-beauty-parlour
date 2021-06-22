@@ -41,9 +41,11 @@ One error and five warnings were found as detailed in the following screenshot:
 
 ![CSS Testing Results](./testing-images/css-testing.png) "CSS testing results"
 
-#### Error fixes
+#### Error and Warning fixes
 
-1. On screens over 800px, flex-direction was set to 'revert'. Changed flex-direction value to 'row'. Retested: ERROR PASSED
+1. On screens over 800px, flex-direction was set to 'revert'. Changed flex-direction value to 'row'. Retested: ERROR PASSED.
+
+2. Font family names contained whitespace in error on lines 179, 297 and 354. Fixed font names to correct syntax. Retested: WARNING PASSED.
 
 
 ### Unfixed Bugs
