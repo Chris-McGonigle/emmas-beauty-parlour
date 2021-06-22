@@ -22,7 +22,7 @@ Four errors were found as detailed in the following screenshot:
 
 2. Stray /i tag identified. Removed element causing error. Retested: ERROR PASSED.
 
-3. Atribute polaroid caption not allowed on div at that point. Added additional div inside parent div to provide caption. Restyled CSS of caption. Retested: ERROR PASSED.
+3. Attribute polaroid caption not allowed on div at that point. Added additional div inside parent div to provide caption. Restyled CSS of caption. Retested: ERROR PASSED.
 
 4. Stray div tag identified. Removed surplus div tag. Retested: ERROR PASSED.
 
@@ -40,5 +40,10 @@ CSS was tested using the [W3C CSS Validation Service - Jigsaw](https://jigsaw.w3
 One error and five warnings were found as detailed in the following screenshot:
 
 ![CSS Testing Results](./testing-images/css-testing.png) "CSS testing results"
+
+#### Error fixes
+
+1. On screens over 800px, flex-direction was set to 'revert'. Changed flex-direction value to 'row'. Retested: ERROR PASSED
+
 
 ### Unfixed Bugs

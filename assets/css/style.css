@@ -281,7 +281,7 @@ header h1 {
     position: absolute;
     border: 1px solid #db9487;
     background-color: white;
-    padding: 15px 15px 60px 15px;
+    padding: 15px 15px 0px 15px;
     box-shadow: 5px 10px 10px #db9487;
 }
 
@@ -572,7 +572,7 @@ header h1 {
     .about-us-box {
         display: flex;
         flex-wrap: wrap;
-        flex-direction: revert;
+        flex-direction: row;
     }
 
     #qualification-logo {
