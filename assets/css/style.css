@@ -300,8 +300,6 @@ header h1 {
 
 .client-photo .client-polaroid {
     transform: rotate(10deg);
-    -ms-transform: rotate(10deg);
-    -webkit-transform: rotate(10deg);
 }
 
 .polaroid-caption {

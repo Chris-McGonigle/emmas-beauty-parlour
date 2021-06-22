@@ -45,7 +45,12 @@ One error and five warnings were found as detailed in the following screenshot:
 
 1. On screens over 800px, flex-direction was set to 'revert'. Changed flex-direction value to 'row'. Retested: ERROR PASSED.
 
-2. Font family names contained whitespace in error on lines 179, 297 and 354. Fixed font names to correct syntax. Retested: WARNING PASSED.
+2. Font family names contained whitespace in error on lines 179, 297 and 354. Fixed font names to correct syntax. Retested: WARNING REMOVED.
 
+3. The transform properties of the polaroid client image presented with an unknown vendor extension warning. Removed -ms and -webkit transform extensions. Retested: WARNING REMOVED.
+
+The CSS was then retested in it's entirety. All errors were found to be fixed and warnings removed. No new issues had arisen.
+
+![CSS retest results](./testing-images/css-retest.png) "CSS retest results"
 
 ### Unfixed Bugs
