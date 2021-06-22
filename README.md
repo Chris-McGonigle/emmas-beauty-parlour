@@ -95,9 +95,17 @@ The website is aimed at a female audience, who make up 95% of the clients custom
 
 ## Technologies Used section?
 
-* HTML
-* CSS
+* HTML5
+* CSS3
 * Javascript (For Google Map in Location Section)
+* Balsamiq
+* Adobe Photoshop
+* Firefox Developer tools
+* Google Chrome Developer tools
+* Github
+* Gitpod
+* W3C Markup and Jigsaw validation tools
+
 
 ## Testing
 
