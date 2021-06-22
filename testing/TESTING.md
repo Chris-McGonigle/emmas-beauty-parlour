@@ -18,9 +18,11 @@ Four errors were found as detailed in the following screenshot:
 
 #### Error fixes
 
-1. Stray /li tag was causing this error. Nested li element correctly in dropdown menu. Retested: ERROR PASSED
+1. Stray /li tag was causing this error. Nested li element correctly in dropdown menu. Retested: ERROR PASSED.
 
-2. Stray /i tag identified. Removed element causing error. Retested: ERROR PASSED
+2. Stray /i tag identified. Removed element causing error. Retested: ERROR PASSED.
+
+3. Atribute polaroid caption not allowed on div at that point. Added additional div inside parent div to provide caption. Restyled CSS of caption. Retested: ERROR PASSED.
 
 
 * CSS

@@ -304,6 +304,14 @@ header h1 {
     -webkit-transform: rotate(10deg);
 }
 
+.polaroid-caption {
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+    font-family: "Homemade Apple", san serif;
+    color: #34a0a4;
+}
+
 /* How to find us styling */
 
 .direction-text {
