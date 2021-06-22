@@ -2,7 +2,7 @@
 
 The following document outlines all testing carried out on the client website, Emma's Beauty Parlour. 
 
-During the initial construction process, the dev Tools functionality of Firefox was used to test CSS code intially, where it was then tweaked to the desired outcome.  
+During the initial construction process, the Dev Tools functionality of Firefox was used to test CSS code initially, where it was then tweaked to the desired outcome.  
 
 ## Automated Testing
 
@@ -18,7 +18,10 @@ Four errors were found as detailed in the following screenshot:
 
 #### Error fixes
 
-1. 
+1. Stray /li tag was causing this error. Nested li element correctly in dropdown menu. Retested: ERROR PASSED
+
+2. Stray /i tag identified. Removed element causing error. Retested: ERROR PASSED
+
 
 * CSS
 
