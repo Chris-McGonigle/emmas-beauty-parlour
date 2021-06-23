@@ -138,4 +138,6 @@ Retested: ALERTS FIXED WHERE NECESSARY
 
 1. Two errors were returned for the Contact Form page:
 
-* One was an empty form label. On ivestigation, this was a missing label for the text input area of the contact form. the label however caused alignment issues within the form itself. This was amended in the CSS of the contact form.  
+* One was an empty form label. On ivestigation, this was a missing label for the text input area of the contact form. the label however caused alignment issues within the form itself. This was amended in the CSS of the contact form.
+
+* The second was an empty button. This was caused by the 'Reset' button on the contact form. After discussion with the client, it was agreed to remove this button completely, as due to the small amount of text likely to be provided here a reset mechanism is now not deemed necessary. 
