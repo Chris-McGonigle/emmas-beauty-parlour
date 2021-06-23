@@ -1,4 +1,4 @@
-# Testing for client website 'Emma's Beauty Parlour'
+# Testing for client website "Emma's Beauty Parlour"
 
 The following document outlines all testing carried out on the client website, Emma's Beauty Parlour. 
 
@@ -18,15 +18,25 @@ Four errors were found as detailed in the following screenshot:
 
 #### Error fixes
 
-1. Stray /li tag was causing this error. Nested li element correctly in dropdown menu. Retested: ERROR PASSED.
+1. Stray /li tag was causing this error. Nested li element correctly in dropdown menu. 
 
-2. Stray /i tag identified. Removed element causing error. Retested: ERROR PASSED.
+Retested: ERROR PASSED.
 
-3. Attribute polaroid caption not allowed on div at that point. Added additional div inside parent div to provide caption. Restyled CSS of caption. Retested: ERROR PASSED.
+2. Stray /i tag identified. Removed element causing error. 
 
-4. Stray div tag identified. Removed surplus div tag. Retested: ERROR PASSED.
+Retested: ERROR PASSED.
 
-5. Stray script start tag identified. Moved all script elements inside body tags of HTML. Retested: ERROR PASSED.
+3. Attribute polaroid caption not allowed on div at that point. Added additional div inside parent div to provide caption. Restyled CSS of caption. 
+
+Retested: ERROR PASSED.
+
+4. Stray div tag identified. Removed surplus div tag. 
+
+Retested: ERROR PASSED.
+
+5. Stray script start tag identified. Moved all script elements inside body tags of HTML. 
+
+Retested: ERROR PASSED.
 
 The HTML was then retested in it's entirety. All errors were found to be fixed and no new issues had arisen.
 
