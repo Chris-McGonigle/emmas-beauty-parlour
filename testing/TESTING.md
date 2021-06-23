@@ -142,7 +142,7 @@ Retested: ALERTS FIXED WHERE NECESSARY
 
 * The second was an empty button. This was caused by the 'Reset' button on the contact form. After discussion with the client, it was agreed to remove this button completely, as due to the small amount of text likely to be provided here a reset mechanism is now not deemed necessary.
 
-Retested: ERROR PASSED.
+Retested: ERRORS PASSED.
 
 2. One contrast error was returned. This was caused by the colour of the submit button. 
 
@@ -161,3 +161,5 @@ Retested: ERROR PASSED.
 * Three broken same-page link warnings were received.
 
     * As before, these were caused by links within the navigation bar dropdown menu. Links to Services, About Us and Location were pointing to their respective class name on the homepage, but did not have the page html link inserted before the class name. These links were amended to point to the correct section on the homepage.
+
+    Retested: ALERTS FIXED WHERE NECESSARY
