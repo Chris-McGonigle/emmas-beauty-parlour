@@ -77,7 +77,7 @@ The following results were found.
 
 #### Homepage
 
-![Homepage accessibility results](./testing-images/homepage-accessibility.png)
+![Homepage accessibility results](./testing-images/homepage-accessibility.png) "Homepage accessibility results"
 
 1. The ten errors returned were all due to missing aternative text in the image map area. As this was embedded using a Google API, I am unable to address these errors at present until I have developed further skills in their use. 
 
@@ -98,4 +98,31 @@ Retested: CONTRAST ERRORS FIXED
  * one very small text, and two redundant title texts warnings
     * all three of these warnings were generated within the google map iFrame, which again I am unable to amend at this time, but will address at a later date to ensure maximum accessibility.
 
-Retested: ERRORS FIXED WHERE ABLE - MAP ERRORS REMAIN       
+Retested: ALERTS FIXED WHERE ABLE - MAP ERRORS REMAIN
+
+#### Services Pages
+
+Due to the nature of the three services pages having identical layout, with just the explanatory text and prices changing across the pages, it was found that the accessibility results for these pages were identical, namely:
+
+![Services pages accessibility results](./testing-images/services-accessibility.png) "Services pages accessibility results"
+
+No errors were returned on the services pages, due in part to global changes carried out on the Homepage during it's accessibility testing. 
+
+There were however six alerts received:
+
+1. Two alerts were returned due to a nearby image having the same alternative text. 
+
+* These were caused by the avatars used in the client testimonials section. As these are sample placeholders for demonstration purposes, the real testimonials and pictures will have correct and unique alternative text for each testimonial before the site goes publically live. 
+
+* We are still awaiting the actual testimonials from the client. If these are not recived before publication the placeholders will be removed completely and only reinstated once the actual text is in hand. 
+
+2. One possible heading alert was received.
+
+* As with the Homepage accessibility testing, the alert was produced by the business phone number, which is set to pargraph text. As this is not a heading, this warning was ignored.
+
+3. Three broken same-page link warnings were received.
+
+* On investigation, these were caused by links within the navigation bar dropdown menu. Links to Services, About Us and Location were pointing to their respective class name on the homepage, but did not have the page html link inserted before the class name. These links were amended to point to the correct section on the homepage.
+
+Retested: ALERTS FIXED WHERE NECESSARY
+
