@@ -152,4 +152,12 @@ Retested: ERROR PASSED.
 
 3. Five alerts were received for the contact form page
 
-* One alert for a missing fieldset. 
+* One alert for a missing fieldset. This was due to the radio button inputs on the contact form. A fieldset and legend were added, and the existing paragraph text removed.
+
+* One possible heading alert was received.
+
+    * As with the Homepage accessibility testing, the alert was produced by the business phone number, which is set to pargraph text. As this is not a heading, this warning was ignored.
+
+* Three broken same-page link warnings were received.
+
+    * As before, these were caused by links within the navigation bar dropdown menu. Links to Services, About Us and Location were pointing to their respective class name on the homepage, but did not have the page html link inserted before the class name. These links were amended to point to the correct section on the homepage.
