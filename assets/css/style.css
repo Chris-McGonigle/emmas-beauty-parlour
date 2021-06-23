@@ -509,9 +509,9 @@ header h1 {
 /* Style Contact form buttons */
 
 .submit-button  {
-    background-color: #db9487;
+    background-color: #93625B;
     padding: 5px 5px;
-    color: #4f5051;
+    color: #fff;
     text-align: center;
     font-size: 12px;
     font-weight: 600;
@@ -520,13 +520,8 @@ header h1 {
 }
 
 .submit-button:hover {
-    background-color: #f6f7f1;;
-}
-
-.reset-button {
-    background-color: red;
-    font-weight: 400;
-    border-radius: 5px;
+    background-color: #f6f7f1;
+    color: #4f5051;
 }
 
 #contact-footer {

@@ -140,4 +140,12 @@ Retested: ALERTS FIXED WHERE NECESSARY
 
 * One was an empty form label. On ivestigation, this was a missing label for the text input area of the contact form. the label however caused alignment issues within the form itself. This was amended in the CSS of the contact form.
 
-* The second was an empty button. This was caused by the 'Reset' button on the contact form. After discussion with the client, it was agreed to remove this button completely, as due to the small amount of text likely to be provided here a reset mechanism is now not deemed necessary. 
+* The second was an empty button. This was caused by the 'Reset' button on the contact form. After discussion with the client, it was agreed to remove this button completely, as due to the small amount of text likely to be provided here a reset mechanism is now not deemed necessary.
+
+Retested: ERROR PASSED.
+
+2. One contrast error was returned. This was caused by the colour of the submit button. 
+
+* Using [Google Colour picker](https://htmlcolors.com/google-color-picker), the original colour #db9487, was adjusted to make it slightly darker, whilst still maintaining the original design brief of using calm natural colours such as greens and creams. #93625B was selected and tested. 
+
+* The font colour was also changed to white for better contrast. However on button hover this became invisible, so a text colour change on hover was also added for contrast. Site colour #4f5051 was used for this.
