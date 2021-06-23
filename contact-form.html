@@ -69,17 +69,19 @@
                     <input type="text" id="email" class="text-input" name="email_address" required>
 
                     <p>Please select your query topic</p>
-
-                    <label for="nails">Nails</label>
+                <div class="query-options">
                     <input type="radio" name="query-topic" id="nails" required>
+                    <label for="nails">Nails</label>
 
-                    <label for="waxing">Waxing</label>
                     <input type="radio" name="query-topic" id="waxing" required>
+                    <label for="waxing">Waxing</label>
 
-                    <label for="relaxation">Nails</label>
                     <input type="radio" name="query-topic" id="relaxation" required>
+                    <label for="relaxation">Relaxation</label>
 
-                    <label for="comment-box"></label>
+                </div>
+
+                    <label id="comment-title" for="comment-box">Query details</label>
                     <textarea name="comment-box" id="comment-box" placeholder="Please enter your query details here"></textarea>
 
                     <input type="submit" class="submit-button" value="Submit">

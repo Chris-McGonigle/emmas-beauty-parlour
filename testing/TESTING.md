@@ -18,11 +18,11 @@ Four errors were found as detailed in the following screenshot:
 
 #### Error fixes
 
-1. Stray /li tag was causing this error. Nested li element correctly in dropdown menu. 
+1. Stray li tag was causing this error. Nested li element correctly in dropdown menu. 
 
 Retested: ERROR PASSED.
 
-2. Stray /i tag identified. Removed element causing error. 
+2. Stray i tag identified. Removed element causing error. 
 
 Retested: ERROR PASSED.
 
@@ -83,7 +83,11 @@ The following results were found.
 
 Retested: UNABLE TO RETEST.
 
-2. 12 low contrast errors were found on the page. Upon closer investigation, these errors were found to be exclusively on the page headings. Possible solutions were to darken the text colour, or to provide a contrasting background to the headings to help them stand out. Using [Google Colour picker](https://htmlcolors.com/google-color-picker), the original colour #34a0a4, was adjusted to make it slightly darker, whilst still maintaining the original design brief of using calm natural colours such as greens and creams. #27787a was selected and tested. 
+2. 12 low contrast errors were found on the page. Upon closer investigation, these errors were found to be exclusively on the page headings. 
+
+* Possible solutions were to darken the text colour, or to provide a contrasting background to the headings to help them stand out. 
+
+* Using [Google Colour picker](https://htmlcolors.com/google-color-picker), the original colour #34a0a4, was adjusted to make it slightly darker, whilst still maintaining the original design brief of using calm natural colours such as greens and creams. #27787a was selected and tested. 
 
 Retested: CONTRAST ERRORS FIXED
 
@@ -122,7 +126,16 @@ There were however six alerts received:
 
 3. Three broken same-page link warnings were received.
 
-* On investigation, these were caused by links within the navigation bar dropdown menu. Links to Services, About Us and Location were pointing to their respective class name on the homepage, but did not have the page html link inserted before the class name. These links were amended to point to the correct section on the homepage.
+* On investigation, these were caused by links within the navigation bar dropdown menu. Links to Services, About Us and Location were pointing to their respective class name on the homepage, but did not have the page html link inserted before the class name. 
+
+* These links were amended to point to the correct section on the homepage.
 
 Retested: ALERTS FIXED WHERE NECESSARY
 
+#### Contact Form
+
+![Contact form accessibility results](./testing-images/contact-form-accessibility.png) "Contact form accessibility results"
+
+1. Two errors were returned for the Contact Form page:
+
+* One was an empty form label. On ivestigation, this was a missing label for the text input area of the contact form. the label however caused alignment issues within the form itself. This was amended in the CSS of the contact form.  

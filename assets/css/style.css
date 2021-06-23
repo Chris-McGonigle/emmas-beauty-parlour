@@ -482,6 +482,12 @@ header h1 {
     margin: 0;
 }
 
+#comment-title {
+    display: block;
+    padding-top: 20px;
+}
+
+
 /* Style text input box */
 
 .text-input {
