@@ -110,8 +110,14 @@ header h1 {
     border-radius: 25px;
 }
 
-.services-dropdown {
+.sub-dropdown {
     display: none;
+    padding: 0;
+    z-index: 1;
+    right: 0;
+    text-align: left;
+    line-height: 20px;
+    border-radius: 25px;
 }
 
 /* Style dropdown links */
@@ -142,7 +148,7 @@ header h1 {
     float: left;
 }
 
-#services:hover .services-dropdown {
+.services-dropdown:hover .sub-dropdown {
     display: block;
 }
 
