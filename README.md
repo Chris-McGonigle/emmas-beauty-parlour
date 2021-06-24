@@ -246,4 +246,6 @@ The live link can be found here -
 
 12. The favicon for the site was created using [favicon.cc](https://www.favicon.cc/) and inserted with help from a tutorial on [Stack Overflow](https://stackoverflow.com/questions/11893478/add-favicon-to-website)
 
-13. Website traffic 
+13. Website traffice is monitored using [Google analytics](https://analytics.google.com/analytics/web/)
+
+14. The PDF document used on the Waxing page was authored by [Harley waxing](https://harleywaxing.co.uk/)
