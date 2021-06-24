@@ -47,7 +47,7 @@ table {
 
 .scroll-btn a span {
     font-size: 2em;
-    color: #4f5051;
+    color: rgba(79, 80, 81, 0.7);
 }
 
 .scroll-btn span:hover {
