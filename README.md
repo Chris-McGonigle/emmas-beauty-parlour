@@ -105,6 +105,7 @@ The website is aimed at a female audience, who make up 95% of the clients custom
 * JSFiddle
 * Github
 * Gitpod
+* Favicon.cc
 * W3C Markup and Jigsaw validation tools
 
 
@@ -241,3 +242,5 @@ The live link can be found here -
 10. Text for the nails section was taken from an article on [WebMD](https://www.webmd.com/beauty/features/more-beautiful-nails-a-dozen-tips#1)
 
 11. The confirmation form submitted pop up was adpated from a tutorial on [Stack Overflow](https://stackoverflow.com/questions/59225218/how-to-display-a-confirmation-message-after-form-submission)
+
+12. The favicon for the site was created using [favicon.cc](https://www.favicon.cc/) and inserted with help from a tutorial on [Stack Overflow](https://stackoverflow.com/questions/11893478/add-favicon-to-website)
