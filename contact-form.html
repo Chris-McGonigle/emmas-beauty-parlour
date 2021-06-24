@@ -54,7 +54,7 @@
             <div class="contact">
 
 
-                <form action="https://formdump.codeinstitute.net" method="POST" class="contact-form">
+                <form action="https://formdump.codeinstitute.net" method="POST" class="contact-form" onsubmit="confirmSent()">
 
                     <h2>Get in touch</h2>
 
@@ -70,7 +70,7 @@
 
                     <fieldset>
                     <legend>Please select your query topic</legend>
-                <div class="query-options">
+                    <div class="query-options">
                     <input type="radio" name="query-topic" id="nails" required>
                     <label for="nails">Nails</label>
 
@@ -81,7 +81,7 @@
                     <label for="relaxation">Relaxation</label>
 
                 </div>
-            </fieldset>
+                    </fieldset>
 
                     <label id="comment-title" for="comment-box">Query details</label>
                     <textarea name="comment-box" id="comment-box" placeholder="Please enter your query details here"></textarea>
@@ -130,5 +130,11 @@
 </body>
 
 <script src="https://kit.fontawesome.com/bc577d1dcb.js" crossorigin="anonymous"></script>
+
+<script>
+    function confirmSent(){
+        alert("Your query has been submitted");
+    }
+</script>
 
 </html>
