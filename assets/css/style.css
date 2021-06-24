@@ -442,7 +442,7 @@ header h1 {
 .waxing-main-image {
     height: 75vh;
     width: 100%;
-    background: url('../images/waxing-main-image.jpeg');
+    background: url('../images/waxing-main-image.jpg');
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -464,7 +464,7 @@ header h1 {
 .nails-main-image {
     height: 75vh;
     width: 100%;
-    background: url('../images/nails-main-image.jpeg');
+    background: url('../images/nails-main-image.jpg');
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -479,7 +479,7 @@ header h1 {
 .relaxation-main-image {
     height: 75vh;
     width: 100%;
-    background: url('../images/relaxation-main-image.jpeg');
+    background: url('../images/relaxation-main-image.jpg');
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
