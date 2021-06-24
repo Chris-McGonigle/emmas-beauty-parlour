@@ -28,6 +28,32 @@ table {
     color: #4f5051;
 }
 
+/* Styling Scroll Up Button */
+
+.scroll-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 9999;
+}
+
+.scroll-btn a {
+    height: 20px;
+    width: 20px;
+    text-align: center;
+    display: block;
+    cursor: pointer;
+}
+
+.scroll-btn a span {
+    font-size: 2em;
+    color: #4f5051;
+}
+
+.scroll-btn span:hover {
+    color: #db9487;
+}
+
 /* Styling for all tables */
 
 table {
