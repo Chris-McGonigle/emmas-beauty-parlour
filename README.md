@@ -140,6 +140,70 @@ All technical testing carried out during the lifetime of this project can be fou
   * Result: TEST PASSED
     * a contact form has been included on a separate page, and is linked to from all other webpages on the site
 
+#### User Stories/Expectations
+
+1. As a user, I want to easily ascertain the purpose of the website.
+
+  * Result: TEST PASSED
+    * All visuals and text used leave a user in no doubt that this website is a beautician business providing a number of services.
+
+2. As a user, I want to be able to easily find out the services on offer.
+
+  * Result: TEST PASSED
+    * All services provided by the client are highlighted on the homepage, and also have dedicated pages for each service.
+
+3. As a user, I want to be able to find out the cost of each service provided.
+
+  * Result: TEST PASSED
+    * The cost of each service provided by the client is highlighted in a table on specific pages where similar treatments are grouped together for ease of reference.
+
+4. As a user, I want to be provided with a short description about each service and the time it will take.
+
+* Result: TEST PART PASSED
+    * Each service page provides a brief description of the service being offered. Time taken for these services however are not available. 
+    * The client advises that the time taken for each service differs per client, depending on their indiviudal needs. The client felt that including a time could possibly provide a custiomer with a false impression of time taken, as they may have to take longer than standard.
+
+5. As a user, I want to be provided with directions to the business.
+
+  * Result: TEST PASSED
+    * a map to the clients business premises and text directions have been included on the homepage.
+
+6. As a user, I want to be able to easily find the business contact details.
+
+  * Result: TEST PASSED
+    * the clients phone number for booking is included in a footer at the bottom of each page. A separate contact form is also provided for those users who wish to make contact via text.
+
+7. As a user, I want to be able to find social media links to the business.
+
+  * Result: TEST PASSED
+    * a link to each of the client's social media accounts is included in a footer at the bottom of each page.
+
+8. As a user, I want to be able to provide feedback or comment through the site without having to exit and use my mail client.
+
+  * Result: TEST PASSED
+    * A separate contact form is provided for those users who wish to make contact via text. All other site pages can access this contact form directly using the dropdown navigation menu on each page.
+
+9. As a user, I want to be able to navigate through the site freely, in a manner which is easily understood.
+
+  * Result: TEST PASSED
+    * each page is indentical in style and form, to promote a sense of inclusiveness across all sites pages, that is to say the site design and colours remain consistent across the site
+    * a navigation dropdown is provided on each page, allowing a user to navigate freely between pages, without the use of browser back or forward buttons
+    * a scroll to top button is included on all pages to allow a user to quickly return to the top of each page with a single press, instead of having to scroll back up again. 
+
+10. As a user with disabilties, I want to be able to navigate through the site freely without obstruction.
+
+  * Result: TEST PASSED
+    * HTML is written in a logical order, with semantic elements enabling screen readers to easily ascertain the structure of the site
+    * Alternative text was included on all images were required, to allow older browers or those using screen readers to ascertain what each image is.
+    * The site was tested using [WAVE](https://wave.webaim.org/) to evaulate the accessibility of the site. Any errors identified by WAVE were actioned and passed,.
+
+11. As user, I want to be able to view the website on any of my devices without any loss of functionality.
+
+  * Result: TEST PASSED
+    * The dev tools function of Mozilla Firefox was used to ensure that the website remained responsive across various screen sizes and devices, including iPhone 5, iPhone X, Galaxy S9, and screen sizes ranging from 800px to 1440px.
+    * The website [Am I Responsive](http://ami.responsivedesign.is/#) was used to double check responsiveness across various devices. The resulting screenshot is used as the introductory image to this project. 
+
+
 
 ## Deployment
 <hr>
