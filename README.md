@@ -102,6 +102,7 @@ The website is aimed at a female audience, who make up 95% of the clients custom
 * Adobe Photoshop
 * Firefox Developer tools
 * Google Chrome Developer tools
+* Google analytics
 * JSFiddle
 * Github
 * Gitpod
@@ -244,3 +245,5 @@ The live link can be found here -
 11. The confirmation form submitted pop up was adpated from a tutorial on [Stack Overflow](https://stackoverflow.com/questions/59225218/how-to-display-a-confirmation-message-after-form-submission)
 
 12. The favicon for the site was created using [favicon.cc](https://www.favicon.cc/) and inserted with help from a tutorial on [Stack Overflow](https://stackoverflow.com/questions/11893478/add-favicon-to-website)
+
+13. Website traffic 
