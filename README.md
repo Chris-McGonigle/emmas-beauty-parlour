@@ -102,6 +102,7 @@ The website is aimed at a female audience, who make up 95% of the clients custom
 * Adobe Photoshop
 * Firefox Developer tools
 * Google Chrome Developer tools
+* JSFiddle
 * Github
 * Gitpod
 * W3C Markup and Jigsaw validation tools
@@ -109,7 +110,35 @@ The website is aimed at a female audience, who make up 95% of the clients custom
 
 ## Testing
 
-All tesing carried out during the lifetime of this project can be found by following this link to dedicated [Testing documentation](../testing/testing.md)
+All technical testing carried out during the lifetime of this project can be found by following this link to the dedicated [Testing documentation](../testing/testing.md)
+
+### Client and User Expectation Testing
+
+#### Client feature expectation testing
+
+1. a list of the services provided (including pricing structure and any relevant Health & Safety Information)
+  * Result: TEST PASSED
+    * All services provided by the client are highlighted on the homepage, and also have dedicated pages for each service
+
+2. a CV/professional experience section
+  * Result: TEST PASSED
+    * A section about the client including details of their qualifications and work history is included on the homepage
+
+3. photos of procedures and/or finished product photos
+  * Result: TEST PASSED
+    * Photographs of each service have been included on the homepage and also each dedicated service page.
+
+4. detail the new business location
+  * Result: TEST PASSED
+    * a map to the clients business premises and text directions have been included on the homepage
+
+5. a section for client testimonials
+  * Result: TEST PASSED
+    * client testimonials regarding each individual service are included on each respective page
+
+6. a contact/enquiry form
+  * Result: TEST PASSED
+    * a contact form has been included on a separate page, and is linked to from all other webpages on the site
 
 
 ## Deployment
@@ -137,7 +166,7 @@ The live link can be found here -
 
 5. Colour Pallette choice were influenced by a blog piece on calm colour pallettes by the [Muffin Group](https://muffingroup.com/blog/calm-color-palette/) 
 
-6. Images for the site were sourced copyright free from [Pexels](https://www.pexels.com) and [Unsplash](https://unsplash.com). All other pictures are supplied by the developer and are originals by him.
+6. Images for the site were sourced copyright free from [Adobe Stock](https://stock.adobe.com/uk/), [Pexels](https://www.pexels.com) and [Unsplash](https://unsplash.com). All other pictures are supplied by the developer and are originals by him.
 
 7. Text for the About Us section was adapted from an article by [Emma Hanna Make Up and Beauty](http://emmahanna.com/about-emma-hanna-professional-make-up-artist-belfast-northern-ireland/)
 
