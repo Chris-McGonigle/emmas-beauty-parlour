@@ -176,6 +176,6 @@ Retested: ERRORS PASSED.
 
     ### Element testing
 
-    Every element and link on the site that a user could interact with was manually tested to ensure that the item was behaving as expected. Where necessary fixes were implemented and documented on the test sheet, as well as via a dedicated commit for each issue.
+    Every element and link on the site that a user could interact with was manually tested to ensure that the item was behaving as expected. Where necessary, fixes were implemented and documented on the test sheet, as well as via a dedicated commit for each issue.
 
-    The below screenshot highlights the result of this testing. The testing spreadsheet is also available to download.
+    The below screenshot highlights the result of this testing. The testing spreadsheet is also [available to download].
