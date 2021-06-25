@@ -128,6 +128,10 @@ header h1 {
     font-size: 1.5em;
 }
 
+.fa-caret-down {
+    color: #27787a
+}
+
 /* Style dropdown content hidden by default */
 
 .dropdown-content {
@@ -172,7 +176,8 @@ header h1 {
 
 .dropdown-content li:hover {
     background-color: #f6f7f1;
-    border-bottom: 1px solid #34a0a4;
+    border: 1px solid #34a0a4;
+    border-radius: 25px;
 }
 
 /* Show dropdown on hover */
