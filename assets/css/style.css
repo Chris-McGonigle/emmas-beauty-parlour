@@ -33,7 +33,7 @@ table {
 .scroll-btn {
     position: fixed;
     bottom: 20px;
-    right: 20px;
+    right: 25px;
     z-index: 9999;
 }
 
@@ -132,6 +132,7 @@ header h1 {
 
 .dropdown-content {
     display: none;
+    font-size: 0.75em;
     position: absolute;
     background-color: #db9487;
     color: #27787a;
