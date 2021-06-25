@@ -467,15 +467,17 @@ header h1 {
     margin: 5px;
 }
 
-/* Style download links on waxing page */
+/* Style download links on waxing and nails page */
 
-.what-is-waxing a {
+.what-is-waxing a,
+.nails-explanation a {
     text-decoration: none;
     color: #4f5051;
     font-weight: 800;
 }
 
-.what-is-waxing a:hover {
+.what-is-waxing a:hover,
+.nails-explanation a:hover {
     color: #db9487;
 }
 
@@ -497,6 +499,10 @@ header h1 {
     text-align: center;
     font-size: 1.5em;
 }
+
+/* Style youtube iframe */
+
+
 
 /* Relaxation Page Styling */
 
