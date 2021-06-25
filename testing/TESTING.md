@@ -163,3 +163,19 @@ Retested: ERRORS PASSED.
     * As before, these were caused by links within the navigation bar dropdown menu. Links to Services, About Us and Location were pointing to their respective class name on the homepage, but did not have the page html link inserted before the class name. These links were amended to point to the correct section on the homepage.
 
     Retested: ALERTS FIXED WHERE NECESSARY
+
+    ## Manual Testing
+
+    ### Responsive testing
+
+    The site was tested for responsivenessvia two methods. 
+    
+    The first used the dev tools facility on Firefox and on Chrome to examine the site on various viewports. These findings were used to decide where the breakpoints for media queries would be. 
+    
+    It was found that the site design had issues at the 600px, 800px, 1000px and 1100px wide, so media queries were designed to ensure the integrity of the site design was maintained across all viewports.
+
+    ### Element testing
+
+    Every element and link on the site that a user could interact with was manually tested to ensure that the item was behaving as expected. Where necessary fixes were implemented and documented on the test sheet, as well as via a dedicated commit for each issue.
+
+    The below screenshot highlights the result of this testing. The testing spreadsheet is also available to download.
