@@ -2,6 +2,10 @@
 
 /* Main page styles */
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 0;
     background-color: #f6f7f1;
@@ -550,7 +554,8 @@ header h1 {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    margin-top: 5px;
+    margin-top: 20px;
+    padding: 20px 0 20px 0;
 }
 
 .contact-form {
@@ -568,6 +573,7 @@ header h1 {
 
 .contact-form h2 {
     margin: 0;
+    color: inherit;
 }
 
 #comment-title {
@@ -575,6 +581,9 @@ header h1 {
     padding-top: 20px;
 }
 
+.query-options {
+    display: flex;
+}
 
 /* Style text input box */
 
