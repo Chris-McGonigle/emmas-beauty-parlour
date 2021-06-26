@@ -251,7 +251,6 @@ header h1 {
 }
 
 #services h3 {
-    text-shadow: 5px 10px 10px #000;
     background-color: rgba(246, 247, 241, 0.5);
 }
 
@@ -392,6 +391,10 @@ header h1 {
 #footer {
     color: #4f5051;
     height: auto;
+}
+
+#footer h2 {
+    text-shadow: 5px 10px 10px #27787a;
 }
 
 /* Style Opening Times */
