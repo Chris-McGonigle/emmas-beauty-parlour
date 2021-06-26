@@ -324,7 +324,7 @@ header h1 {
     transform: scale(0.75);
     display: flex;
     justify-content: center;
-
+    padding-bottom: 20px;
 }
 
 .client-photo .client-polaroid {
