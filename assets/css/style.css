@@ -588,7 +588,7 @@ header h1 {
 /* Style text input box */
 
 .text-input {
-    width: 95%;
+    width: 99%;
     padding: 5px;
     margin: 2px 0;
 }
@@ -596,7 +596,7 @@ header h1 {
 #comment-box {
     font-family: Montserrat, sans-serif;
     margin: 5px auto;
-    width: 95%;
+    width: 99%;
     padding: 5px;
     min-height: 150px;
     float: left;
