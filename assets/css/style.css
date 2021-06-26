@@ -66,10 +66,11 @@ table {
     width: 75%;
     margin-left: auto;
     margin-right: auto;
-
 }
 
-table, th, td {
+table,
+th,
+td {
     border: 2px solid #db9487;
     border-collapse: collapse;
 }
@@ -200,7 +201,7 @@ header h1 {
 
 .testimonial {
     border: 2px solid #db9487;
-    background-color:rgba(52, 160, 164, 0.7);
+    background-color: rgba(52, 160, 164, 0.7);
     border-radius: 5px;
     box-shadow: 5px 10px 10px #db9487;
     padding: 15px;
@@ -250,7 +251,7 @@ header h1 {
 
 #services h3 {
     text-shadow: 5px 10px 10px #000;
-
+    background-color: rgba(246, 247, 241, 0.5);
 }
 
 .services-flexbox {
@@ -472,8 +473,20 @@ header h1 {
     text-align: center;
     font-size: 1.5em;
 }
+/* Opaque background behind service pages hero images */
 
-.what-is-waxing, 
+.waxing-main-image h2,
+.nails-main-image h2,
+.relaxation-main-image h2 {
+    background-color: rgba(246, 247, 241, 0.5);
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    bottom: 80px;
+}
+
+
+.what-is-waxing,
 .nails-explanation,
 .relaxation-explanation {
     text-align: center;
@@ -517,7 +530,7 @@ header h1 {
 
 .youtube-video-nails {
     margin: 20px 10px 20px 10px;
-    position: relative;  
+    position: relative;
     height: 0;
     padding-bottom: 56.25%
 }
@@ -564,7 +577,7 @@ header h1 {
     font-family: Montserrat, sans-serif;
     font-weight: 800;
     border: 2px solid #db9487;
-    background-color:rgba(52, 160, 164, 0.7);
+    background-color: rgba(52, 160, 164, 0.7);
     border-radius: 5px;
     box-shadow: 5px 10px 10px #db9487;
     padding: 15px;
@@ -612,7 +625,7 @@ fieldset {
 
 /* Style Contact form buttons */
 
-.submit-button  {
+.submit-button {
     background-color: #93625B;
     padding: 5px 5px;
     color: #fff;
