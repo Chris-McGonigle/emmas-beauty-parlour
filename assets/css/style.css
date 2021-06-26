@@ -229,7 +229,7 @@ header h1 {
 #mission-statement h2 {
     font-family: "Homemade Apple", sans-serif;
     color: #27787a;
-    font-size: 2.5em;
+    font-size: 1.5em;
     text-align: center;
     width: 100%;
     position: absolute;
@@ -649,6 +649,10 @@ fieldset {
 #contact-footer {
     color: #4f5051;
 }
+
+#contact-footer h2 {
+        text-shadow: 5px 10px 10px #27787a;
+    }
 
 /* Media Queries - Screens over 600px wide */
 
