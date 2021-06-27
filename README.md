@@ -10,7 +10,6 @@ You can now view the [live website](https://chris-mcgonigle.github.io/emmas-beau
 
 ## Site Design Considerations
 
-
 ### Client Expectations
 
 The basic functions that the client wants the website to feature are:
@@ -43,14 +42,41 @@ The website is aimed at a female audience, who make up 95% of the clients custom
 10. As a user with disabilties, I want to be able to navigate through the site freely without obstruction.
 11. As user, I want to be able to view the website on any of my devices without any loss of functionality.
 
-
-### Site Design and Colour Scheme
+### Site Design Approach
 
 As is standard industry practise nowadays the site is to be designed from a mobile first perspective. As of May 2021, mobile devices account for 55% of web traffic, desktop 42% and 3% tablet. (source:[Statcounter.com](https://gs.statcounter.com/platform-market-share/desktop-mobile-tablet))
 
 This market share has been increasing over time, so approaching projects from a mobile first perspective is essential to ensure that sites remain responsive across all devices and that load times remain within acceptable limits.
 
-Although designing mobile first can restrict the amount of content provided to the end user, it ensures that users are not being bombarded with superfluous information, and that the information provided has been prioritised. This results in a cleaner, more efficient experience and should promote a positive emotional experience for the user.
+Although designing mobile first can restrict the amount of content provided to the end user, it ensures that users are not being bombarded with superfluous information, and that the information provided has been prioritised as important for the overall site goals. This results in a cleaner, more efficient experience and should promote a positive emotional experience for the user.
+
+### Colour Scheme and Font
+
+Getting the correct colour choice for the site is an integral part of trying to convey the feeling that the client wants the website to emote.
+
+As the core aims of the business are to provide relaxation and a general sense of well-being to clients through their treatments, it was important that the colour choice also reflected this.
+
+It is a well documented fact that of colour psychology that colour can trigger an emotional response. To promote a feeling of relaxation, it was decided to use a pallete of greens, grays and creams, with Call to Action buttons being a shade of orange called Petite Orchid. This provides a contrast without being too 'in your face'
+
+The initial colours chosen were: 
+
+1. [#f6f7f1](https://imagecolorpicker.com/color-code/f6f7f1) for the site background
+2. [#34a0a4](https://imagecolorpicker.com/color-code/34a0a4) for the headings and text
+3. [#db9487](https://imagecolorpicker.com/color-code/db9487) for Call to Actions and box shadows.
+
+During accessibility testing, it was found that the colour choice for headings and text was not strong enough to provide enough contrast for users. Also it was found to be hard to differentiate at times on smaller devices what was a heading and what was pargraph text.
+
+To solve this issue, a slightly darker green was selected for headings, plus a contrasting grey was introduced to differentiate the paragraph text from the headings. 
+
+The new colours selected were:
+
+1. [#27787a](https://imagecolorpicker.com/color-code/27787a) for the site headings
+2. [#4f5051](https://imagecolorpicker.com/color-code/4f5051) for the paragraph text.
+
+Colours for the site background and CTA's remained unchanged. Upon retest, these new colours provided enough contrast to make the text legible to viewers, whilst maintaing the original design brief of using calming natural colours to convey a feeling of relaxation.
+
+
+
 
 ## Wireframes
 
@@ -107,6 +133,8 @@ Although designing mobile first can restrict the amount of content provided to t
 * Javascript (For Google Map in Location Section and Contact Form Submit Confirmation)
 * Balsamiq
 * Adobe Photoshop
+* Fontawesome
+* Google fonts
 * Firefox Developer tools
 * Google Chrome Developer tools
 * Google analytics
@@ -257,3 +285,5 @@ The live link can be found here - (https://chris-mcgonigle.github.io/emmas-beaut
 14. The PDF document used on the Waxing page was authored by [Harley waxing](https://harleywaxing.co.uk/)
 
 15. The responsive Youtube video iframe was adapted froma tutorial on [CSS-Tricks](https://css-tricks.com/fluid-width-video/)
+
+16. [Image colour picker](https://imagecolorpicker.com) was used to assist in colour identification and for presentational purposes in the README file.
