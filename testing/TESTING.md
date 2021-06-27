@@ -180,4 +180,4 @@ Retested: ERRORS PASSED.
 
     The below screenshot highlights the result of this testing. The testing spreadsheet (in Excel format) is also [available to download](../testing/manual-testing.xlsx)
 
-    ![Manual link testing results](./testing-images/contact-form-accessibility.png) "Manual Link Testing results"
+    ![Manual link testing results](./testing-images/manual-testing.png) "Manual Link Testing results"
