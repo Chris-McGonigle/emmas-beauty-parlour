@@ -182,6 +182,12 @@ All technical testing carried out during the lifetime of this project can be fou
   * Result: TEST PASSED
     * a contact form has been included on a separate page, and is linked to from all other webpages on the site
 
+The client also had a number of other desired outcomes from the project. 
+
+The client wanted to convey a feeling of peace and relaxation and wanted the site to be geared towards a female audience. This cannot be measured in a Pass/Fail format, however the choice of images used and the colour pallette design aimed to meet these requirements, and overall the choice has been successful in promting that general feeling.
+
+The client also wished to monitor the traffic to the site. To that end, a Google analytics account was set up, and tracking code entered into the website head element. 
+
 #### User Stories/Expectations
 
 1. As a user, I want to easily ascertain the purpose of the website.
