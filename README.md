@@ -284,20 +284,20 @@ The live link can be found here - (https://chris-mcgonigle.github.io/emmas-beaut
 
 7. Text for the About Us section was adapted from an article by [Emma Hanna Make Up and Beauty](http://emmahanna.com/about-emma-hanna-professional-make-up-artist-belfast-northern-ireland/)
 
-8. Text for the relaxation section was taken from a blog article on [WellbeingPeople.com](https://www.wellbeingpeople.com/2019/04/15/why-relaxation-is-so-important/)
+8. Text for the Relaxation section was taken from a blog article on [WellbeingPeople.com](https://www.wellbeingpeople.com/2019/04/15/why-relaxation-is-so-important/)
 
-9. Text for the waxing section was taken from an article on [SecretSpa.co.uk](https://secretspa.co.uk/guide-to-waxing/)
+9. Text for the Waxing section was taken from an article on [SecretSpa.co.uk](https://secretspa.co.uk/guide-to-waxing/)
 
-10. Text for the nails section was taken from an article on [WebMD](https://www.webmd.com/beauty/features/more-beautiful-nails-a-dozen-tips#1)
+10. Text for the Nails section was taken from an article on [WebMD](https://www.webmd.com/beauty/features/more-beautiful-nails-a-dozen-tips#1)
 
 11. The confirmation form submitted pop up was adpated from a tutorial on [Stack Overflow](https://stackoverflow.com/questions/59225218/how-to-display-a-confirmation-message-after-form-submission)
 
 12. The favicon for the site was created using [favicon.cc](https://www.favicon.cc/) and inserted with help from a tutorial on [Stack Overflow](https://stackoverflow.com/questions/11893478/add-favicon-to-website)
 
-13. Website traffice is monitored using [Google analytics](https://analytics.google.com/analytics/web/)
+13. Website traffic is monitored using [Google analytics](https://analytics.google.com/analytics/web/)
 
 14. The PDF document used on the Waxing page was authored by [Harley waxing](https://harleywaxing.co.uk/)
 
-15. The responsive Youtube video iframe was adapted froma tutorial on [CSS-Tricks](https://css-tricks.com/fluid-width-video/)
+15. The responsive Youtube video iframe was adapted from a tutorial on [CSS-Tricks](https://css-tricks.com/fluid-width-video/)
 
 16. [Image colour picker](https://imagecolorpicker.com) was used to assist in colour identification and for presentational purposes in the README file.
