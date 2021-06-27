@@ -6,6 +6,8 @@ Following a hiatus from work due to a pregnancy and the covid pandemic, the clie
 
 Until now the client had been using social media channels and word of mouth to drive business leads, but during the pandemic she seen how useful a website was for her competitors during lockdown and now wants to get one set up for her own business.
 
+You can now view the [live website](https://chris-mcgonigle.github.io/emmas-beauty-parlour/).
+
 ## Site Design Considerations
 
 
@@ -112,7 +114,7 @@ The website is aimed at a female audience, who make up 95% of the clients custom
 
 ## Testing
 
-All technical testing carried out during the lifetime of this project can be found by following this link to the dedicated [Testing documentation](../testing/testing.md)
+All technical testing carried out during the lifetime of this project can be found by following this link to the dedicated [testing documentation](./testing/testing.md)
 
 ### Client and User Expectation Testing
 
