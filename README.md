@@ -75,8 +75,13 @@ The new colours selected were:
 
 Colours for the site background and CTA's remained unchanged. Upon retest, these new colours provided enough contrast to make the text legible to viewers, whilst maintaing the original design brief of using calming natural colours to convey a feeling of relaxation.
 
+For font choice, the client wished a mix of handwritten styles for headings, with some form of sans-serif style for all other text.
 
+The initial heading font chosen was [Dancing Script](https://fonts.google.com/specimen/Dancing+Script?category=Handwriting). Upon testing however, the font was gard to read on smaller screens. 
 
+A second font, [Homemade Apple](https://fonts.google.com/specimen/Homemade+Apple?category=Handwriting) was tested and found to be legible. The client was presented with this choice and agreed it was a better selection than the initial selection. 
+
+Of the fonts suggested by Google Fonts of appropriate pairings, [Montserrat](https://fonts.google.com/specimen/Montserrat?query=montserrat) was chosen for the paragraph and table text. It is a clean legible font, and in keeping with todays font trends. Sans serif was added as a backup option for those browsers that do not support some of the modern typefaces. Again the client was consulted on this choice and signed off on it's use.
 
 ## Wireframes
 
