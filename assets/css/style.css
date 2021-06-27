@@ -702,6 +702,10 @@ fieldset {
         margin-top: 20px;
     }
 
+    .mission-statement h2 {
+        bottom: 150px;
+    }
+
     .about-us-box {
         display: flex;
         flex-wrap: wrap;
