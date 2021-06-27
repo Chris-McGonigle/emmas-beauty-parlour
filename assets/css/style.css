@@ -697,6 +697,10 @@ fieldset {
         font-size: 1.5em;
     }
 
+    .home-dropdown {
+        margin-top: 20px;
+    }
+
     .about-us-box {
         display: flex;
         flex-wrap: wrap;
