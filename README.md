@@ -127,7 +127,7 @@ Of the fonts suggested by Google Fonts for appropriate pairings, [Montserrat](ht
   * Along with a short text explanation of the service, a price list is included which details every service along with their price. These are two of the main things that a user will be interested in finding out.
   * Each page then includes three client testimonials about the service provided. Including this features helps to build a feeling of trust, and the inclusion of the avatar increases this trust even further, so that the user is less likely to think that it may be a fake review made by the site owner themselves.
 
-  ![Services page landing image](./assets/images/READMEimages/services-page-landing.png)
+  ![Services page landing image](./assets/images/READMEimages/services-page-landing-image.png)
 
   ![Services page price list image](./assets/images/READMEimages/services-price-list.png)
 
