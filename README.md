@@ -44,8 +44,13 @@ The website is aimed at a female audience, who make up 95% of the clients custom
 11. As user, I want to be able to view the website on any of my devices without any loss of functionality.
 
 
-<!-- Discuss colour pallette choices-->
+### Site Design and Colour Scheme
 
+As is standard industry practise nowadays the site is to be designed from a mobile first perspective. As of May 2021, mobile devices account for 55% of web traffic, desktop 42% and 3% tablet. (source:[Statcounter.com](https://gs.statcounter.com/platform-market-share/desktop-mobile-tablet))
+
+This market share has been increasing over time, so approaching projects from a mobile first perspective is essential to ensure that sites remain responsive across all devices and that load times remain within acceptable limits.
+
+Although designing mobile first can restrict the amount of content provided to the end user, it ensures that users are not being bombarded with superfluous information, and that the information provided has been prioritised. This results in a cleaner, more efficient experience and should promote a positive emotional experience for the user.
 
 ## Wireframes
 
@@ -207,8 +212,6 @@ All technical testing carried out during the lifetime of this project can be fou
     * The dev tools function of Mozilla Firefox was used to ensure that the website remained responsive across various screen sizes and devices, including iPhone 5, iPhone X, Galaxy S9, and screen sizes ranging from 800px to 1440px.
     * The website [Am I Responsive](http://ami.responsivedesign.is/#) was used to double check responsiveness across various devices. The resulting screenshot is used as the introductory image to this project. 
 
-
-
 ## Deployment
 <hr>
 
@@ -216,10 +219,11 @@ The site was deployed to GitHub pages.
 
 The steps to deploy are as follows:
 * In the GitHub repository, navigate to the Settings tab
-* From the source section drop-down menu, select the Master Branch
+* Select the Pages sub-menu
+* From the source section drop-down menu, select the Master Branch, and then hit save
 * Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
-The live link can be found here - 
+The live link can be found here - (https://chris-mcgonigle.github.io/emmas-beauty-parlour/)
 
 ## Credits
 <hr>
