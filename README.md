@@ -131,7 +131,7 @@ Of the fonts suggested by Google Fonts for appropriate pairings, [Montserrat](ht
 
   ![Services page price list image](./assets/images/READMEimages/services-price-list.png)
 
-  ![Services page client testimonial image](./assets/images/READMEimages/services-testimonial.png)
+  ![Services page client testimonial image](./assets/images/READMEimages/services-testimonials.png)
 
   * Location Map
 
