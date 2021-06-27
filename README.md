@@ -222,7 +222,7 @@ The live link can be found here -
 ## Credits
 <hr>
 
-1.  [W3Schools](https://www.w3schools.com/) Tutorials were used to help in the coding of the dropdown navigation bar, the parallax scrolling effect and the insertion of the location map using Google Maps API.
+1.  [W3Schools](https://www.w3schools.com/) Tutorials were used to help in the coding of the [dropdown navigation bar](https://www.w3schools.com/howto/howto_css_dropdown_navbar.asp), the [parallax scrolling effect](https://www.w3schools.com/howto/howto_css_parallax.asp) and the [insertion of the location map](https://www.w3schools.com/graphics/google_maps_intro.asp) using Google Maps API.
 
 2. The creation and styling of the Polaroid image was adapted from a tutorial by [Savv Studio](https://medium.com/@SavvStudio/tutorial-make-your-images-look-like-polaroid-pictures-with-html-and-css-7b1120732dd1). 
 
