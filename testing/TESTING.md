@@ -1,4 +1,4 @@
-# Testing for client website "Emma's Beauty Parlour"
+# Testing for client website 'Emma's Beauty Parlour'
 
 The following document outlines all testing carried out on the client website, Emma's Beauty Parlour. 
 
@@ -178,4 +178,6 @@ Retested: ERRORS PASSED.
 
     Every element and link on the site that a user could interact with was manually tested to ensure that the item was behaving as expected. Where necessary, fixes were implemented and documented on the test sheet, as well as via a dedicated commit for each issue.
 
-    The below screenshot highlights the result of this testing. The testing spreadsheet is also [available to download].
+    The below screenshot highlights the result of this testing. The testing spreadsheet (in Excel format) is also [available to download](../testing/manual-testing.xlsx)
+
+    ![Manual link testing results](./testing-images/contact-form-accessibility.png) "Manual Link Testing results"
