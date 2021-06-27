@@ -48,7 +48,7 @@ As is standard industry practise nowadays the site is to be designed from a mobi
 
 This market share has been increasing over time, so approaching projects from a mobile first perspective is essential to ensure that sites remain responsive across all devices and that load times remain within acceptable limits.
 
-Although designing mobile first can restrict the amount of content provided to the end user, it ensures that users are not being bombarded with superfluous information, and that the information provided has been prioritised as important for the overall site goals. This results in a cleaner, more efficient experience and should promote a positive emotional experience for the user.
+Although designing mobile first can restrict the amount of content provided to the end user, it ensures that users are not being bombarded with superfluous information, and that the information provided has been prioritised as important to achieve the overall site goals. This results in a cleaner, more efficient experience and should promote a positive emotional experience for the user.
 
 ### Colour Scheme and Font
 
@@ -56,7 +56,9 @@ Getting the correct colour choice for the site is an integral part of trying to 
 
 As the core aims of the business are to provide relaxation and a general sense of well-being to clients through their treatments, it was important that the colour choice also reflected this.
 
-It is a well documented fact that of colour psychology that colour can trigger an emotional response. To promote a feeling of relaxation, it was decided to use a pallete of greens, grays and creams, with Call to Action buttons being a shade of orange called Petite Orchid. This provides a contrast without being too 'in your face'
+It is a well documented fact of colour psychology that colour can trigger an emotional response, be that negative or positive. 
+
+To promote a feeling of relaxation, it was decided to use a pallete of greens, grays and creams, with Call to Action buttons being a shade of orange called Petite Orchid. This provides a contrast without being too 'in your face'.
 
 The initial colours chosen were: 
 
@@ -64,7 +66,7 @@ The initial colours chosen were:
 2. [#34a0a4](https://imagecolorpicker.com/color-code/34a0a4) for the headings and text
 3. [#db9487](https://imagecolorpicker.com/color-code/db9487) for Call to Actions and box shadows.
 
-During accessibility testing, it was found that the colour choice for headings and text was not strong enough to provide enough contrast for users. Also it was found to be hard to differentiate at times on smaller devices what was a heading and what was pargraph text.
+During accessibility testing, it was found that the colour choice for headings and text was not strong enough to provide enough contrast for users. Also it was found to be hard to differentiate at times on smaller devices what was a heading and what was paragraph text.
 
 To solve this issue, a slightly darker green was selected for headings, plus a contrasting grey was introduced to differentiate the paragraph text from the headings. 
 
@@ -75,13 +77,13 @@ The new colours selected were:
 
 Colours for the site background and CTA's remained unchanged. Upon retest, these new colours provided enough contrast to make the text legible to viewers, whilst maintaing the original design brief of using calming natural colours to convey a feeling of relaxation.
 
-For font choice, the client wished a mix of handwritten styles for headings, with some form of sans-serif style for all other text.
+For font choice, the client desired a mix of handwritten styles for headings, with some form of sans-serif style for all other text.
 
-The initial heading font chosen was [Dancing Script](https://fonts.google.com/specimen/Dancing+Script?category=Handwriting). Upon testing however, the font was gard to read on smaller screens. 
+The initial heading font chosen was [Dancing Script](https://fonts.google.com/specimen/Dancing+Script?category=Handwriting). Upon testing however, the font was hard to read on smaller screens. 
 
 A second font, [Homemade Apple](https://fonts.google.com/specimen/Homemade+Apple?category=Handwriting) was tested and found to be legible. The client was presented with this choice and agreed it was a better selection than the initial selection. 
 
-Of the fonts suggested by Google Fonts of appropriate pairings, [Montserrat](https://fonts.google.com/specimen/Montserrat?query=montserrat) was chosen for the paragraph and table text. It is a clean legible font, and in keeping with todays font trends. Sans serif was added as a backup option for those browsers that do not support some of the modern typefaces. Again the client was consulted on this choice and signed off on it's use.
+Of the fonts suggested by Google Fonts for appropriate pairings, [Montserrat](https://fonts.google.com/specimen/Montserrat?query=montserrat) was chosen for the paragraph and table text. It is a clean legible font, and in keeping with todays font trends. Sans-serif was added as a backup option for those browsers that do not support some of the modern typefaces. Again the client was consulted on this choice and signed off on the use.
 
 ## Wireframes
 
@@ -133,26 +135,27 @@ Of the fonts suggested by Google Fonts of appropriate pairings, [Montserrat](htt
 
 ## Technologies Used
 
-* HTML5
-* CSS3
-* Javascript (For Google Map in Location Section and Contact Form Submit Confirmation)
-* Balsamiq
-* Adobe Photoshop
-* Fontawesome
-* Google fonts
-* Firefox Developer tools
-* Google Chrome Developer tools
-* Google analytics
-* JSFiddle
-* Github
-* Gitpod
-* Favicon.cc
-* W3C Markup and Jigsaw validation tools
-
+* [HTML5](https://en.wikipedia.org/wiki/HTML5) was used for the site markup
+* [CSS3](https://en.wikipedia.org/wiki/CSS#CSS_3) was used to style the HTML content
+* [Javascript](https://en.wikipedia.org/wiki/JavaScript) was used for the embedded Google Map in Location Section and Contact Form Submit Confirmation Pop up
+* [Balsamiq](https://balsamiq.com/) was used to produce the site wireframes
+* [Adobe Stock](https://stock.adobe.com/uk/), [Pexels](https://www.pexels.com/) and [Unsplash](https://unsplash.com/) were used to source copyright free images for the site
+* [Adobe Photoshop](https://www.adobe.com/uk/products/photoshop.html) was used to resize site images
+* [Font Awesome](https://fontawesome.com/) was used for the site icons
+* [Google Fonts](https://fonts.google.com/) provided all of the fonts used on the site
+* [Firefox Developer tool](https://developer.mozilla.org/en-US/docs/Tools) was used to test site responsiveness and to test code
+* [Google Chrome Developer tools](https://developer.chrome.com/docs/devtools/) was used to test site responsiveness and to test code
+* [Safari Developer tools](https://support.apple.com/en-gb/guide/safari/sfri20948/mac) was used to test site responsiveness and to test code
+* [Google analytics](https://analytics.google.com) is being used to monitor site traffic
+* [JSFiddle](https://jsfiddle.net/) was used to test code for dropdown menus
+* [Github](https://github.com/Chris-McGonigle) was used as the repository hosting service
+* [Gitpod](https://www.gitpod.io/) was used as the Code Editor for the site
+* [Favicon.cc](https://www.favicon.cc/) was used to create the site favicon
+* [W3C Markup](https://validator.w3.org/) and [Jigsaw validation](https://jigsaw.w3.org/) tools were used to validate the HTML and CSS used.
 
 ## Testing
 
-All technical testing carried out during the lifetime of this project can be found by following this link to the dedicated [testing documentation](./testing/testing.md)
+All technical testing carried out during the lifetime of this project can be found by following this link to the dedicated [testing documentation](./testing/TESTING.md)
 
 ### Client and User Expectation Testing
 
@@ -184,7 +187,7 @@ All technical testing carried out during the lifetime of this project can be fou
 
 The client also had a number of other desired outcomes from the project. 
 
-The client wanted to convey a feeling of peace and relaxation and wanted the site to be geared towards a female audience. This cannot be measured in a Pass/Fail format, however the choice of images used and the colour pallette design aimed to meet these requirements, and overall the choice has been successful in promting that general feeling.
+The client wanted to convey a feeling of peace and relaxation and wanted the site to be geared towards a female audience. This cannot be measured in a Pass/Fail format, however the choice of images used and the colour pallette design aim to meet these requirements, and overall the choice has been successful in promoting that general feeling of calm relaxation.
 
 The client also wished to monitor the traffic to the site. To that end, a Google analytics account was set up, and tracking code entered into the website head element. 
 
@@ -267,7 +270,7 @@ The live link can be found here - (https://chris-mcgonigle.github.io/emmas-beaut
 ## Credits
 <hr>
 
-1.  [W3Schools](https://www.w3schools.com/) Tutorials were used to help in the coding of the [dropdown navigation bar](https://www.w3schools.com/howto/howto_css_dropdown_navbar.asp), the [parallax scrolling effect](https://www.w3schools.com/howto/howto_css_parallax.asp) and the [insertion of the location map](https://www.w3schools.com/graphics/google_maps_intro.asp) using Google Maps API.
+1.  W3Schools Tutorials were used to help in the coding of the [dropdown navigation bar](https://www.w3schools.com/howto/howto_css_dropdown_navbar.asp), the [parallax scrolling effect](https://www.w3schools.com/howto/howto_css_parallax.asp) and the [insertion of the location map](https://www.w3schools.com/graphics/google_maps_intro.asp) using Google Maps API.
 
 2. The creation and styling of the Polaroid image was adapted from a tutorial by [Savv Studio](https://medium.com/@SavvStudio/tutorial-make-your-images-look-like-polaroid-pictures-with-html-and-css-7b1120732dd1). 
 
