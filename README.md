@@ -111,21 +111,48 @@ Of the fonts suggested by Google Fonts for appropriate pairings, [Montserrat](ht
 
 ### Initial Deployment Features
 
-* Navigation Bar
+ Navigation Bar and Landing Page Image
 
   * Each page contains a fully responsive identical navigation bar at the top of the screen.
   * Identical styling helps to promote an overall inclusive feel to the site, and pulls pages together across a common theme.
   * The bar contains links to all other pages of the site, enabling the user to quickly navigate through the site without having to utilise their browser navigation buttons.  
 
-* Landing Page Image
+  * The landing page image was picked to draw your eye in, but also to convey that the site is for women in the main. The mission statement provides some insight into the fact that the subject matter is beauty.
+
+  ![Navigation bar and landing page image](./assets/images/READMEimages/navigation-bar.png)
 
 * Services Pages
 
-* Location Map
+  * Each service page contains a landing image to ensure consistency of style across the site. The images are chosen to illustrate the respective page subject matter.
+  * Along with a short text explanation of the service, a price list is included which details every service along with their price. These are two of the main things that a user will be interested in finding out.
+  * Each page then includes three client testimonials about the service provided. Including this features helps to build a feeling of trust, and the inclusion of the avatar increases this trust even further, so that the user is less likely to think that it may be a fake review made by the site owner themselves.
+
+  ![Services page landing image](./assets/images/READMEimages/services-page-landing.png)
+
+  ![Services page price list image](./assets/images/READMEimages/services-price-list.png)
+
+  ![Services page client testimonial image](./assets/images/READMEimages/services-testimonial.png)
+
+  * Location Map
+
+    * The location map features on the main home page. It is accompanied by text directions for some extra assisstance to customers wishing to find the client. As this uses Google maps, potential customers can use this map on their phone for directions to the client. The pin position was placed in the exact location to ensure any directions made then by Google maps are accurate.
+
+  ![Location map image](./assets/images/READMEimages/location-map.png)
 
 * Contact Form
 
+  * The contact form enables a user to send a text form message to the client. It allows freeform text entry, along with requiring certain information that will allow the client to respond to any query. This means a user does not necessarily have to use their pwn mail client, social media or telephone to contact the client, all can be achieved using the contact form.
+
+  ![Contact form image](./assets/images/READMEimages/contact-form.png)
+
 * Footer
+
+  * The footer provides three items of information that is of value to both a user and the client.
+  1. it contains details of the clients opening hours
+  2. it contains links to all of the clients social media channels
+  3. it provides a user with the clients telephone number, which is also a hyperlink so can be clicked from whatever device is being used, saving a user from having to copy the phone number across before dialling.
+
+    ![Footer image](./assets/images/READMEimages/footer.png)
 
 ### Future Features
 
