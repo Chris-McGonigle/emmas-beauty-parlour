@@ -234,7 +234,7 @@ header h1 {
     width: 100%;
     position: absolute;
     margin-bottom: 30px;
-    bottom: 150px;
+    bottom: 75px;
     background-color: rgba(246, 247, 241, 0.5);
 }
 
@@ -661,6 +661,10 @@ fieldset {
 /* Media Queries - Screens over 600px wide */
 
 @media screen and (min-width: 600px) {
+
+    .mission-statement h2 {
+        bottom: 100px;
+    }
 
     .services-flexbox,
     #location-container {
