@@ -168,7 +168,7 @@ Retested: ERRORS PASSED.
 
     ### Responsive testing
 
-    The site was tested for responsivenessvia two methods. 
+    The site was tested for responsiveness via two methods. 
     
     The first used the dev tools facility on Firefox and on Chrome to examine the site on various viewports. These findings were used to decide where the breakpoints for media queries would be. 
     
