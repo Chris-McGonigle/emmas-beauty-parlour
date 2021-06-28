@@ -14,7 +14,7 @@ You can now view the [live website](https://chris-mcgonigle.github.io/emmas-beau
 
 1. [Site Design Considerations](#site-design-considerations)
   * [Client Expectations](#client-expectations)
-  * [User Stories/Expectations](#user-stories-expectations)
+  * [User Stories/Expectations](#user-stories-and-expectations)
   * [Site Design Approach](#site-design-approach)
   * [Colour Scheme and Font](#colour-scheme-and-font)
 2.  [Wireframes](#wireframes)
@@ -24,12 +24,11 @@ You can now view the [live website](https://chris-mcgonigle.github.io/emmas-beau
 3. [Features](#features)
   * [Initial Deployment Features](#initial-deployment-features)
   * [Future Features](#future-features)
-
 4. [Technologies Used](#technologies-used)
 5. [Testing](#testing)
   * [Automated testing](./testing/TESTING.md)
   * [Client feature expectation testing](#client-feature-expectation-testing)
-    * [User Stories/Expectations](#user-stories-and-expectations)
+  * [User Stories/Expectations](#user-stories-and-expectations-results)
 6. [Deployment](#deployment)
 7. [Credits](#credits)
 
@@ -251,7 +250,7 @@ The client wanted to convey a feeling of peace and relaxation and wanted the sit
 
 The client also wished to monitor the traffic to the site. To that end, a Google analytics account was set up, and tracking code entered into the website head element. 
 
-#### User Stories/Expectations
+#### User Stories and Expectations results
 
 1. As a user, I want to easily ascertain the purpose of the website.
 
@@ -341,6 +340,19 @@ The live link can be found here - (https://chris-mcgonigle.github.io/emmas-beaut
 5. Colour Pallette choice were influenced by a blog piece on calm colour pallettes by the [Muffin Group](https://muffingroup.com/blog/calm-color-palette/) 
 
 6. Images for the site were sourced copyright free from [Adobe Stock](https://stock.adobe.com/uk/), [Pexels](https://www.pexels.com) and [Unsplash](https://unsplash.com). All other pictures are supplied by the developer and are originals by him.
+
+| Image Title | Source |
+| --- | --- |
+| hero-image.jpg | Unsplash |
+| nails-homepage.jpg | Pexels |
+| nails-main-image.jpg | Adobe Stock |
+| waxing-homepage.jpg | Unsplash |
+| waxing-main-image.jpg | Adobe Stock |
+| relaxation-homepage.jpg | Adobe Stock |
+| relaxation-main-image.jpg | Adobe Stock |
+| emma-resized.png | Developer |
+| cibtac-logo.png | CIBTAC.com |
+| cidesco-logo.png | CIDESCO.com |
 
 7. Text for the About Us section was adapted from an article by [Emma Hanna Make Up and Beauty](http://emmahanna.com/about-emma-hanna-professional-make-up-artist-belfast-northern-ireland/)
 
