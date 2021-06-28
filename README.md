@@ -8,6 +8,8 @@ Until now the client had been using social media channels and word of mouth to d
 
 You can now view the [live website](https://chris-mcgonigle.github.io/emmas-beauty-parlour/).
 
+![Homepage Demostration across multiple devices](./assets/images/READMEimages/homepage-examples.png)
+
 ## Site Design Considerations
 
 ### Client Expectations
