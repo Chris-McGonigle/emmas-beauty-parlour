@@ -28,7 +28,7 @@ You can now view the [live website](https://chris-mcgonigle.github.io/emmas-beau
 4. [Technologies Used](#technologies-used)
 5. [Testing](#testing)
   * [Automated testing](./testing/TESTING.md)
-  * [Client feature expectation testing](#client-feature expectation-testing)
+  * [Client feature expectation testing](#client-feature-expectation-testing)
     * [User Stories/Expectations](#user-tories/expectations)
 6. [Deployment](#deployment)
 7. [Credits](#credits)
