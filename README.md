@@ -10,8 +10,12 @@ You can now view the [live website](https://chris-mcgonigle.github.io/emmas-beau
 
 ![Homepage Demostration across multiple devices](./assets/images/READMEimages/homepage-examples.png)
 
-* TOC
-{:toc}
+## Table of Contents
+
+1. [Site Design Considerations] (##Site Design Considerations)
+  * [Client Expectations](###Client Expectations)
+  * [User Stories/Expectations](### User Stories/Expectations)
+2.  
 
 ## Site Design Considerations
 
