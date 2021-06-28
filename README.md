@@ -154,6 +154,11 @@ Of the fonts suggested by Google Fonts for appropriate pairings, [Montserrat](ht
 
     ![Footer image](./assets/images/READMEimages/footer.png)
 
+* Scroll to top button
+  * All pages feature a scroll to top button for ease of navigation on all devices, but it is of specific use to those on mobile devices. It enables users to quickly jump to the top of the page without having to scroll all the way back up the content. 
+
+  ![Scroll to top button](./assets/images/READMEimages/scroll-button.png)    
+
 ### Future Features
 
 * Online Booking
