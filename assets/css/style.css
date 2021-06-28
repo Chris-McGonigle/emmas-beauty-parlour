@@ -477,6 +477,7 @@ header h1 {
     margin-top: 5px;
     text-align: center;
     font-size: 1.5em;
+    position: relative;
 }
 /* Opaque background behind service pages hero images */
 
@@ -530,6 +531,7 @@ header h1 {
     margin-top: 5px;
     text-align: center;
     font-size: 1.5em;
+    position: relative;
 }
 
 /* Style youtube iframe - adapted from tutorial on CSS Tricks.com */
@@ -562,6 +564,7 @@ header h1 {
     margin-top: 5px;
     text-align: center;
     font-size: 1.5em;
+    position: relative;
 }
 
 /* Contact Form Styling */
