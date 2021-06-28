@@ -157,8 +157,11 @@ Of the fonts suggested by Google Fonts for appropriate pairings, [Montserrat](ht
 ### Future Features
 
 * Online Booking
+  * The ability for users to book appointments online is the next logical feature to be implemented. This will free up the clients time as currently the process is done manually, and rescheduling or cancelling appointments can prove difficult for the client at times as well. Having this automated will free up more time for the client, which can be used to service their users, instead of having time taken up with manual scheduling. 
 
 * Ecommerce Site
+  * This is not an urgent requirement at present, but has been offered to the client as a possibility. They do not see the need at the momengt for this as they sell products at the point of receieving anoher service e.g. they offer the product used on the person after they have received a massage.
+  * It has been suggested to teh client that this could be included as a feature on the website, that each treatment offered could have links to the products used in an ecommerce shop. A brief will be prepared for teh client at a later date to highlight the further benefits an ecommerce site would bring to them.
 
 ## Technologies Used
 
