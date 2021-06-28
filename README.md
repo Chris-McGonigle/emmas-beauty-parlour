@@ -12,10 +12,26 @@ You can now view the [live website](https://chris-mcgonigle.github.io/emmas-beau
 
 ## Table of Contents
 
-1. [Site Design Considerations] (##Site Design Considerations)
-  * [Client Expectations](###Client Expectations)
-  * [User Stories/Expectations](### User Stories/Expectations)
-2.  
+1. [Site Design Considerations](#site-design-considerations)
+  * [Client Expectations](#client-expectations)
+  * [User Stories/Expectations](#user-stories-expectations)
+  * [Site Design Approach](#site-design-approach)
+  * [Colour Scheme and Font](#colour-scheme-and-font)
+2.  [Wireframes](#wireframes)
+  * [Homepage](#homepage)
+  * [Services Offered Pages](#services-offered-pages)
+  * [Contact Us Page](#-contact-us-page)
+3. [Features](#features)
+  * [Initial Deployment Features](#initial-deployment-features)
+  * [Future Features](#future-features)
+
+4. [Technologies Used](#technologies-used)
+5. [Testing](#testing)
+  * [Automated testing](./testing/TESTING.md)
+  * [Client feature expectation testing](#client-feature expectation-testing)
+    * [User Stories/Expectations](#user-tories/expectations)
+6. [Deployment](#deployment)
+7. [Credits](#credits)
 
 ## Site Design Considerations
 
