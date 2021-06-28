@@ -29,7 +29,7 @@ You can now view the [live website](https://chris-mcgonigle.github.io/emmas-beau
 5. [Testing](#testing)
   * [Automated testing](./testing/TESTING.md)
   * [Client feature expectation testing](#client-feature-expectation-testing)
-    * [User Stories/Expectations](#user-tories/expectations)
+    * [User Stories/Expectations](#user-stories-and-expectations)
 6. [Deployment](#deployment)
 7. [Credits](#credits)
 
@@ -53,7 +53,7 @@ If possible, the client also wishes to be able to monitor the traffic to the sit
 
 The website is aimed at a female audience, who make up 95% of the clients custom.
 
-### User Stories/Expectations
+### User Stories and Expectations
 
 1. As a user, I want to easily ascertain the purpose of the website.
 2. As a user, I want to be able to easily find out the services on offer.
