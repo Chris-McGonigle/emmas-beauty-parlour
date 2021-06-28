@@ -143,7 +143,7 @@ Of the fonts suggested by Google Fonts for appropriate pairings, [Montserrat](ht
 
 * Contact Form
 
-  * The contact form enables a user to send a text form message to the client. It allows freeform text entry, along with requiring certain information that will allow the client to respond to any query. This means a user does not necessarily have to use their pwn mail client, social media or telephone to contact the client, all can be achieved using the contact form.
+  * The contact form enables a user to send a text form message to the client. It allows freeform text entry, along with requiring certain information that will allow the client to respond to any query. This means a user does not necessarily have to use their own mail client, social media or telephone to contact the client, all can be achieved using the contact form.
 
   ![Contact form image](./assets/images/READMEimages/contact-form.png)
 
@@ -167,8 +167,8 @@ Of the fonts suggested by Google Fonts for appropriate pairings, [Montserrat](ht
   * The ability for users to book appointments online is the next logical feature to be implemented. This will free up the clients time as currently the process is done manually, and rescheduling or cancelling appointments can prove difficult for the client at times as well. Having this automated will free up more time for the client, which can be used to service their users, instead of having time taken up with manual scheduling. 
 
 * Ecommerce Site
-  * This is not an urgent requirement at present, but has been offered to the client as a possibility. They do not see the need at the momengt for this as they sell products at the point of receieving anoher service e.g. they offer the product used on the person after they have received a massage.
-  * It has been suggested to teh client that this could be included as a feature on the website, that each treatment offered could have links to the products used in an ecommerce shop. A brief will be prepared for teh client at a later date to highlight the further benefits an ecommerce site would bring to them.
+  * This is not an urgent requirement at present, but has been offered to the client as a possibility. They do not see the need at the moment for this feature as they sell products at the point of receiving another service e.g. they offer the product used on the person after they have received a massage.
+  * It has been suggested to the client that this could be included as a feature on the website, that each treatment offered could have links to the products used in an e-commerce shop. A brief will be prepared for the client at a later date to highlight the further benefits an ecommerce site would bring to them.
 
 ## Technologies Used
 
@@ -249,7 +249,7 @@ The client also wished to monitor the traffic to the site. To that end, a Google
 
 * Result: TEST PART PASSED
     * Each service page provides a brief description of the service being offered. Time taken for these services however are not available. 
-    * The client advises that the time taken for each service differs per client, depending on their indiviudal needs. The client felt that including a time could possibly provide a custiomer with a false impression of time taken, as they may have to take longer than standard.
+    * The client advises that the time taken for each service differs per client, depending on their indiviudal needs. The client felt that including a time could possibly provide a customer with a false impression of time taken, as they may have to take longer than standard.
 
 5. As a user, I want to be provided with directions to the business.
 
