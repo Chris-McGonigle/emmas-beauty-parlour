@@ -224,6 +224,7 @@ header h1 {
     background-repeat: no-repeat;
     background-size: cover;
     margin-top: 5px;
+    position: relative;
 }
 
 #mission-statement h2 {
@@ -233,8 +234,7 @@ header h1 {
     text-align: center;
     width: 100%;
     position: absolute;
-    margin-bottom: 30px;
-    bottom: 50px;
+    bottom: 10px;
     background-color: rgba(246, 247, 241, 0.5);
 }
 
